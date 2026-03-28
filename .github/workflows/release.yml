@@ -13,4 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: BigWigsMods/packager@v2
+      - name: Package addon
+        run: |
+          mkdir -p KekwSoundBoard
+          cp -r KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard.xml KekwSoundBoardData.lua KekwSoundBoard/
+          cp -r KekwSoundBoard_Classic KekwSoundBoard/KekwSoundBoard_Classic
+          mkdir -p out
+          mv KekwSoundBoard out/
+          mv out/KekwSoundBoard/KekwSoundBoard_Classic out/KekwSoundBoard_Classic
+          cd out && zip -r ../KekwSoundBoard-${{ github.ref_name }}.zip KekwSoundBoard/ KekwSoundBoard_Classic/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: KekwSoundBoard-*.zip
