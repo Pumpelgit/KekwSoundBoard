@@ -16,12 +16,11 @@ jobs:
       - name: Package addon
         run: |
           VERSION=${GITHUB_REF_NAME#v}
-          ZIPNAME="KekwSoundBoard-${GITHUB_REF_NAME}.zip"
 
           mkdir -p out/KekwSoundBoard
           cp KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard.xml KekwSoundBoardData.lua out/KekwSoundBoard/
 
-          cd out && zip -r ../$ZIPNAME KekwSoundBoard/
+          cd out && zip -r ../KekwSoundBoard.zip KekwSoundBoard/
           cd ..
 
           cat > release.json << EOF
@@ -30,7 +29,7 @@ jobs:
               {
                 "name": "KekwSoundBoard",
                 "version": "$VERSION",
-                "filename": "$ZIPNAME",
+                "filename": "KekwSoundBoard.zip",
                 "nolib": false,
                 "metadata": [
                   {"flavor": "mainline", "interface": 120001}
@@ -44,5 +43,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            KekwSoundBoard-*.zip
+            KekwSoundBoard.zip
             release.json
