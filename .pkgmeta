@@ -1,0 +1,9 @@
+package-as: LeeroyHillCatsPower
+
+move-folders:
+  LeeroyHillCatsPower/LHCP_Classic: LHCP_Classic
+
+ignore:
+  - nopatch
+  - README.md
+  - .github

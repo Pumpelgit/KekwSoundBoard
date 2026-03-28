@@ -1,0 +1,29 @@
+SOUND LIST
+
+/barrel		- Do a barrel roll (Starfox SNES)
+/bde		- "Best Day Ever" Sponge Bob Squarepants
+/cotc		- "Duel of the Fates" Star Wars EP1
+/wrists		- "Crawling" Lincoln Park
+/pill		- I feel like I'm taking Crazy Pills (Kicking and Screaming)
+/fail		- Failure sound from The Price is Right
+/epic		- "Ghost Love Score" Nightwish
+/hassan		- (the "hassan" song, need credit)
+/katamari	- Theme from Katamari Damaci
+/kill		- from Kill Bill
+/leek		- Loituma Breaks (Leek Spin Song / depi.sk)
+/milks		- "Milkshake" Kaylis
+/moskau		- Moskau Moskau! (???)
+/nedm		- "We Interrupt This Program" Coburn (NEDM song)
+/nint64		- OMG NINTENDO SIXTY-FOUR!
+/noo		- NOOOOO!!! (Vader, Star Wars EP3)
+/rit9		- "Running in the 90s" Max Coveri
+/stole		- stole my bike (YTMND)
+/demon		- "Answers" Vigilante (The Mystery Song)
+/gog		- The goggles, they do nothing! (The Simpsons)
+/topgun		- "Ride into the Danger Zone" Kenny Loggins
+/tralala	- "Tra La La" Gunther
+/ual		- "Macaron Chacaron" El Mudo
+/whatislove	- "What is Love" Haddaway
+/wrong		- Wrong! (Kevin Spacey in Superman Returns)
+/pirate		- "You are a Pirate" Lazytown
+/youlose	- "You lose! Good day sir!" (Gene Wilder in Charlie and the Chocolate Factory)

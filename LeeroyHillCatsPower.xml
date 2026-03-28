@@ -1,0 +1,23 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
+	<Script file="LeeroyHillCatsPower.lua"/>
+	<Script file="LeeroyHillCatsPowerData.lua"/>
+	
+	<!-- Frame to handle all core events -->
+	<Frame name="BH_core">
+		<Scripts>
+			<OnLoad>
+				LHCP_Init();
+				self:RegisterEvent("CHAT_MSG_SAY")
+				self:RegisterEvent("CHAT_MSG_TEXT_EMOTE")
+				self:RegisterEvent("PLAYER_ENTERING_WORLD")
+				self:RegisterEvent("PLAYER_LEAVING_WORLD")
+				self:SetScript("OnEvent", LHCP_OnEvent);
+			</OnLoad>
+			<OnEvent>
+				LHCP_OnEvent(self, event, ...);
+			</OnEvent>
+
+		</Scripts>
+	</Frame>
+</Ui>
+

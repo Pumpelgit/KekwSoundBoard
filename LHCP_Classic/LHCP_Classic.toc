@@ -1,0 +1,7 @@
+## Interface: 120001
+## Title: LHCP! -Sound Collection
+## Notes: Updated by Trassik 01/29/09
+
+/benny /leeroy /power /thundercats /lls /ateam /tiger /rocky /rff /pwrr /mortal /imp /bj /ctt /dogs /ebn /venga /goninja /matrix /ymca /rampage /ultrakill /mkill /fpsdoug /dots /hitit /dkp /dots2 /whelps /mcraiders /byh /thrall /thrall2 /whine /rush /gover /murloc /tunak /napoleon /repressed /sandlol /kill /topgun /tralala /katamari /noo /whatislove /moskau /rit9 /wrists /cotc /leek /milks /bde /nedm /nint64 /demon /wrong /pirate /youlose /wookies /pi /ytmnd /wonderful /wabbit /tank /practice /bears /playoffs /forty /llama /whee 
+## Dependencies: LeeroyHillCatsPower
+LHCP_pkg.xml
