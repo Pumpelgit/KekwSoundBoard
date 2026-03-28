@@ -19,8 +19,9 @@ jobs:
 
           mkdir -p out/KekwSoundBoard
           cp KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard_Mainline.toc KekwSoundBoard.xml KekwSoundBoardData.lua out/KekwSoundBoard/
+          cp -r KekwSoundBoard_Classic out/KekwSoundBoard_Classic
 
-          cd out && zip -r ../KekwSoundBoard.zip KekwSoundBoard/
+          cd out && zip -r ../KekwSoundBoard.zip KekwSoundBoard/ KekwSoundBoard_Classic/
           cd ..
 
           cat > release.json << EOF
