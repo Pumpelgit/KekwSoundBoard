@@ -1,4 +1,4 @@
 <Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
-	<Script file="LHCP_pkg.lua"/>
+	<Script file="KekwSoundBoard_pkg.lua"/>
 </Ui>
 

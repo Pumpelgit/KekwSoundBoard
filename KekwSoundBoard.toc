@@ -1,0 +1,8 @@
+## Interface: 120001
+## Title: KekwSoundBoard
+## Notes: /kekw list
+## OptionalDeps:
+## Dependencies:
+## SavedVariablesPerCharacter: Kekw_ignoreMode
+## SavedVariables: Kekw_globalIgnoreMode
+KekwSoundBoard.xml

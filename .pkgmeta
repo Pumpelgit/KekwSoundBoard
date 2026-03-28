@@ -1,7 +1,7 @@
-package-as: LeeroyHillCatsPower
+package-as: KekwSoundBoard
 
 move-folders:
-  LeeroyHillCatsPower/LHCP_Classic: LHCP_Classic
+  KekwSoundBoard/KekwSoundBoard_Classic: KekwSoundBoard_Classic
 
 ignore:
   - nopatch

@@ -1,16 +1,16 @@
-local dir = "Interface\\AddOns\\LHCP_Classic\\";
+local dir = "Interface\\AddOns\\KekwSoundBoard_Classic\\";
 
-if not LeeroyHillCatsPower_eastereggs
-  or type(LeeroyHillCatsPower_eastereggs) ~= "table" then
-	LeeroyHillCatsPower_eastereggs = {};
+if not KekwSoundBoard_eastereggs
+  or type(KekwSoundBoard_eastereggs) ~= "table" then
+	KekwSoundBoard_eastereggs = {};
 end
 
-if not LeeroyHillCatsPower_data
-  or type(LeeroyHillCatsPower_data) ~= "table" then
-	LeeroyHillCatsPower_data = {};
+if not KekwSoundBoard_data
+  or type(KekwSoundBoard_data) ~= "table" then
+	KekwSoundBoard_data = {};
 end
 
-LeeroyHillCatsPower_data["benny"] = {
+KekwSoundBoard_data["benny"] = {
 	["text"] = 		"* gives it some Benny Hill! *",
 	["AllianceEnemyText"] = 	"no'bu ag grom No'ku Zaga",
 	["HordeEnemyText"] = 		"nagan an vrum Barad Lars",
@@ -20,7 +20,7 @@ LeeroyHillCatsPower_data["benny"] = {
 	["file"] = dir.."bennyhill",
 };
 
-LeeroyHillCatsPower_data["leeroy"] = {
+KekwSoundBoard_data["leeroy"] = {
 	["text"] = 		"* invokes the power of Leeroy Jenkins! *",
 	["AllianceEnemyText"] = 	"sturume ras majis va Valesh Lithtos",
 	["HordeEnemyText"] = 		"rath'is mog regas gi Moguna Tov'osh",
@@ -29,7 +29,7 @@ LeeroyHillCatsPower_data["leeroy"] = {
 	["file"] = dir.."leeroy",
 };
 
-LeeroyHillCatsPower_data["tcats"] = {
+KekwSoundBoard_data["tcats"] = {
 	["text"] = 		"* Thundercats HO *",
 	["AllianceEnemyText"] = 	"Farlandowar RU",
 	["HordeEnemyText"] = 		"zug'ama MU",
@@ -38,7 +38,7 @@ LeeroyHillCatsPower_data["tcats"] = {
 	["file"] = dir.."thundercatsho",
 };
 
-LeeroyHillCatsPower_data["power"] = {
+KekwSoundBoard_data["power"] = {
 	["text"] = 		"* BY THE POWER OF GREYSKULL *",
 	["AllianceEnemyText"] = 	"SE RAS MAJIS VA REGENTHOR",
 	["HordeEnemyText"] = 		"KO MOG REGAS GI GESH'NUKA",
@@ -46,7 +46,7 @@ LeeroyHillCatsPower_data["power"] = {
 	["file"] = dir.."heman",
 };
 
-LeeroyHillCatsPower_data["lls"] = {
+KekwSoundBoard_data["lls"] = {
 	["text"] = 		"* LOVE LOVE SHINE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -55,7 +55,7 @@ LeeroyHillCatsPower_data["lls"] = {
 	["file"] = dir.."lls",
 };
 
-LeeroyHillCatsPower_data["rocky"] = {
+KekwSoundBoard_data["rocky"] = {
 	["text"] = 		"* Who wants to PVP! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -64,7 +64,7 @@ LeeroyHillCatsPower_data["rocky"] = {
 	["file"] = dir.."rocky",
 };
 
-LeeroyHillCatsPower_data["rff"] = {
+KekwSoundBoard_data["rff"] = {
 	["text"] = 		"* FEUER FREI! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -73,7 +73,7 @@ LeeroyHillCatsPower_data["rff"] = {
 	["file"] = dir.."rff",
 };
 
-LeeroyHillCatsPower_data["pwrr"] = {
+KekwSoundBoard_data["pwrr"] = {
 	["text"] = 		"* GO GO POWER RANGERS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -82,7 +82,7 @@ LeeroyHillCatsPower_data["pwrr"] = {
 	["file"] = dir.."pwrrngs",
 };
 
-LeeroyHillCatsPower_data["ateam"] = {
+KekwSoundBoard_data["ateam"] = {
 	["text"] = 		"* The A TEAM! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -91,7 +91,7 @@ LeeroyHillCatsPower_data["ateam"] = {
 	["file"] = dir.."ateam",
 };
 
-LeeroyHillCatsPower_data["mortal"] = {
+KekwSoundBoard_data["mortal"] = {
 	["text"] = 		"* MORTAL KOMBAT! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -100,7 +100,7 @@ LeeroyHillCatsPower_data["mortal"] = {
 	["file"] = dir.."mortal",
 };
 
-LeeroyHillCatsPower_data["imp"] = {
+KekwSoundBoard_data["imp"] = {
 	["text"] = 		"* DUN DUN DUN! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -109,7 +109,7 @@ LeeroyHillCatsPower_data["imp"] = {
 	["file"] = dir.."imperial_march",
 };
 
-LeeroyHillCatsPower_data["tiger"] = {
+KekwSoundBoard_data["tiger"] = {
 	["text"] =		"* Eye of the Tiger! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -118,7 +118,7 @@ LeeroyHillCatsPower_data["tiger"] = {
 	["file"] = dir.."eyeofthetiger",
 };
 
-LeeroyHillCatsPower_data["venga"] = {
+KekwSoundBoard_data["venga"] = {
 	["text"] = 		"* RIDE THE VENGABUS *",
 	["AllianceEnemyText"] = 	"SALDDOHGDLGDB",
 	["HordeEnemyText"] = 		"OBFSGFDGHLHFS",
@@ -127,7 +127,7 @@ LeeroyHillCatsPower_data["venga"] = {
 	["file"] = dir.."venga",
 };
 
-LeeroyHillCatsPower_data["goninja"] = {
+KekwSoundBoard_data["goninja"] = {
 	["text"] = 		"* GO NINJA GO NINJA GO! *",
 	["AllianceEnemyText"] = 	"YGIODFHKLVJKGBH",
 	["HordeEnemyText"] = 		"HJKLGEHSLKGHDJKXGFJJGHGK",
@@ -136,7 +136,7 @@ LeeroyHillCatsPower_data["goninja"] = {
 	["file"] = dir.."ninja",
 };
 	
-LeeroyHillCatsPower_data["matrix"] = {
+KekwSoundBoard_data["matrix"] = {
 	["text"] = 		"* THERE IS NO SPOON! *",
 	["AllianceEnemyText"] = 	"HGYOGDKJDSJKFGHFUSS",
 	["HordeEnemyText"] = 		"RWRYIWUTYFKSDYFDKGGGSHHS",
@@ -145,7 +145,7 @@ LeeroyHillCatsPower_data["matrix"] = {
 	["file"] = dir.."matrix",
 };
 
-LeeroyHillCatsPower_data["ymca"] = {
+KekwSoundBoard_data["ymca"] = {
 	["text"] = 		"* Y M C A! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -154,7 +154,7 @@ LeeroyHillCatsPower_data["ymca"] = {
 	["file"] = dir.."YMCA2",
 };
 
-LeeroyHillCatsPower_data["ebn"] = {
+KekwSoundBoard_data["ebn"] = {
 	["text"] = 		"* Everybody Dance Now! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -163,7 +163,7 @@ LeeroyHillCatsPower_data["ebn"] = {
 	["file"] = dir.."EBN",
 };
 
-LeeroyHillCatsPower_data["ctt"] = {
+KekwSoundBoard_data["ctt"] = {
 	["text"] = 		"* Can't touch this! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -172,7 +172,7 @@ LeeroyHillCatsPower_data["ctt"] = {
 	["file"] = dir.."CTT",
 };
 
-LeeroyHillCatsPower_data["dogs"] = {
+KekwSoundBoard_data["dogs"] = {
 	["text"] = 		"* Who let the dogs out! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -181,7 +181,7 @@ LeeroyHillCatsPower_data["dogs"] = {
 	["file"] = dir.."dogs",
 };
 
-LeeroyHillCatsPower_data["bj"] = {
+KekwSoundBoard_data["bj"] = {
 	["text"] = 		"* Billie Jean! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -190,7 +190,7 @@ LeeroyHillCatsPower_data["bj"] = {
 	["file"] = dir.."billiejean",
 };
 
-LeeroyHillCatsPower_data["rampage"] = {
+KekwSoundBoard_data["rampage"] = {
 	["text"] = 		"* RAMPAGE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -198,7 +198,7 @@ LeeroyHillCatsPower_data["rampage"] = {
 	["file"] = dir.."rampage",
 };
 
-LeeroyHillCatsPower_data["ultrakill"] = {
+KekwSoundBoard_data["ultrakill"] = {
 	["text"] = 		"* ULTRA KILL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -206,7 +206,7 @@ LeeroyHillCatsPower_data["ultrakill"] = {
 	["file"] = dir.."ultrakill",
 };
 
-LeeroyHillCatsPower_data["mkill"] = {
+KekwSoundBoard_data["mkill"] = {
 	["text"] = 		"* MONSTER KILL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -215,7 +215,7 @@ LeeroyHillCatsPower_data["mkill"] = {
 	["file"] = dir.."monsterkill",
 };
 
-LeeroyHillCatsPower_data["fpsdoug"] = {
+KekwSoundBoard_data["fpsdoug"] = {
 	["text"] = 		"* IT'S LIKE BOOM HS!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -223,7 +223,7 @@ LeeroyHillCatsPower_data["fpsdoug"] = {
 	["file"] = dir.."BOOMHS",
 };
 
-LeeroyHillCatsPower_data["dots"] = {
+KekwSoundBoard_data["dots"] = {
 	["text"] = 		"* MORE DOTS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -231,7 +231,7 @@ LeeroyHillCatsPower_data["dots"] = {
 	["file"] = dir.."moredots",
 };
 
-LeeroyHillCatsPower_data["hitit"] = {
+KekwSoundBoard_data["hitit"] = {
 	["text"] = 		"* Hit it like ya mean it! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -239,7 +239,7 @@ LeeroyHillCatsPower_data["hitit"] = {
 	["file"] = dir.."hitit",
 };
 
-LeeroyHillCatsPower_data["dkp"] = {
+KekwSoundBoard_data["dkp"] = {
 	["text"] = 		"* 50 DKP MINUS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -249,7 +249,7 @@ LeeroyHillCatsPower_data["dkp"] = {
 	["nsfw"] = true,
 };
 
-LeeroyHillCatsPower_data["dots2"] = {
+KekwSoundBoard_data["dots2"] = {
 	["text"] = 		"* Need more DoTs! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -257,7 +257,7 @@ LeeroyHillCatsPower_data["dots2"] = {
 	["file"] = dir.."moredots2",
 };
 
-LeeroyHillCatsPower_data["whelps"] = {
+KekwSoundBoard_data["whelps"] = {
 	["text"] = 		"* WHELPS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -265,7 +265,7 @@ LeeroyHillCatsPower_data["whelps"] = {
 	["file"] = dir.."whelps",
 };
 
-LeeroyHillCatsPower_data["sandlol"] = {
+KekwSoundBoard_data["sandlol"] = {
 	["text"] =		"* SANDLOL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -273,7 +273,7 @@ LeeroyHillCatsPower_data["sandlol"] = {
 	["file"] = dir.."jarofdirt",
 };
 
-LeeroyHillCatsPower_data["repressed"] = {
+KekwSoundBoard_data["repressed"] = {
 	["text"] =		"* HELP HELP I'M BEIN REPRESSED! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -281,7 +281,7 @@ LeeroyHillCatsPower_data["repressed"] = {
 	["file"] = dir.."repressed",
 };
 
-LeeroyHillCatsPower_data["napoleon"] = {
+KekwSoundBoard_data["napoleon"] = {
 	["text"] =		"* You know this boogie is for real. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -290,7 +290,7 @@ LeeroyHillCatsPower_data["napoleon"] = {
 	["file"] = dir.."napoleon",
 };
 
-LeeroyHillCatsPower_data["tunak"] = {
+KekwSoundBoard_data["tunak"] = {
 	["text"] =		"* Tunak Tunak Tun... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -299,7 +299,7 @@ LeeroyHillCatsPower_data["tunak"] = {
 	["file"] = dir.."tunaktunak",
 };
 
-LeeroyHillCatsPower_data["murloc"] = {
+KekwSoundBoard_data["murloc"] = {
 	["text"] = 		"* RLRLRLRLGLRLGLR *",
 	["AllianceEnemyText"] = 	"IOEHIOFHNSLFKN",
 	["HordeEnemyText"] = 		"IGHEINFGDKLVN",
@@ -307,7 +307,7 @@ LeeroyHillCatsPower_data["murloc"] = {
 	["file"] = dir.."murloc",
 };
 
-LeeroyHillCatsPower_data["mcraiders"] = {
+KekwSoundBoard_data["mcraiders"] = {
 	["text"] = 		"* MC Raiders! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -315,7 +315,7 @@ LeeroyHillCatsPower_data["mcraiders"] = {
 	["file"] = dir.."mcraiders",
 };
 
-LeeroyHillCatsPower_data["byh"] = {
+KekwSoundBoard_data["byh"] = {
 	["text"] = 		"* I can be your healer baby! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -323,7 +323,7 @@ LeeroyHillCatsPower_data["byh"] = {
 	["file"] = dir.."chealers",
 };
 
-LeeroyHillCatsPower_data["thrall"] = {
+KekwSoundBoard_data["thrall"] = {
 	["text"] = 		"* Club Thrall! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -332,7 +332,7 @@ LeeroyHillCatsPower_data["thrall"] = {
 	["file"] = dir.."thrall",
 };
 
-LeeroyHillCatsPower_data["thrall2"] = {
+KekwSoundBoard_data["thrall2"] = {
 	["text"] = 		"* Thralls Ball! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -341,7 +341,7 @@ LeeroyHillCatsPower_data["thrall2"] = {
 	["file"] = dir.."thrallsball",
 };
 
-LeeroyHillCatsPower_data["whine"] = {
+KekwSoundBoard_data["whine"] = {
 	["text"] = 		"* STOP WHINING! *",
 	["AllianceEnemyText"] = 	"WKAHOLGHDLSGFL",
 	["HordeEnemyText"] = 		"UPORUGPORGLFHGSB",
@@ -349,7 +349,7 @@ LeeroyHillCatsPower_data["whine"] = {
 	["file"] = dir.."whine",
 };
 	
-LeeroyHillCatsPower_data["rush"] = {
+KekwSoundBoard_data["rush"] = {
 	["text"] = 		"* Charge! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -358,7 +358,7 @@ LeeroyHillCatsPower_data["rush"] = {
 	["file"] = dir.."CHARGE",
 };
 	
-LeeroyHillCatsPower_data["gover"] = {
+KekwSoundBoard_data["gover"] = {
 	["text"] = 		"* Game Over Man! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -367,7 +367,7 @@ LeeroyHillCatsPower_data["gover"] = {
 	["file"] = dir.."gameover",
 };
 
-LeeroyHillCatsPower_data["wonderful"] = {
+KekwSoundBoard_data["wonderful"] = {
 	["text"] = 		"* I'm Having a wonderful time *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -376,7 +376,7 @@ LeeroyHillCatsPower_data["wonderful"] = {
 	["file"] = dir.."wonderful time",
 };
 
-LeeroyHillCatsPower_data["ytmnd"] = {
+KekwSoundBoard_data["ytmnd"] = {
 	["text"] = 		"* YOU'RE THE MAN NOW, DOG! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -385,7 +385,7 @@ LeeroyHillCatsPower_data["ytmnd"] = {
 	["file"] = dir.."ytmnd",
 };
 
-LeeroyHillCatsPower_data["pi"] = {
+KekwSoundBoard_data["pi"] = {
 	["text"] = 		"* 3.141592653589793238.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -393,7 +393,7 @@ LeeroyHillCatsPower_data["pi"] = {
 	["file"] = dir.."pi",
 };
 
-LeeroyHillCatsPower_data["wookies"] = {
+KekwSoundBoard_data["wookies"] = {
 	["text"] = 		"* SALSA WOOKIES! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -401,7 +401,7 @@ LeeroyHillCatsPower_data["wookies"] = {
 	["file"] = dir.."o fortuna",
 };
 
-LeeroyHillCatsPower_data["youlose"] = {
+KekwSoundBoard_data["youlose"] = {
 	["text"] = 		"* You LOSE! Good day sir! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -409,7 +409,7 @@ LeeroyHillCatsPower_data["youlose"] = {
 	["file"] = dir.."you lose",
 };
 
-LeeroyHillCatsPower_data["pirate"] = {
+KekwSoundBoard_data["pirate"] = {
 	["text"] = 		"* Do what you want 'cuz a pirate is free... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -417,7 +417,7 @@ LeeroyHillCatsPower_data["pirate"] = {
 	["file"] = dir.."pirate",
 };
 
-LeeroyHillCatsPower_data["kill"] = {
+KekwSoundBoard_data["kill"] = {
 	["text"] = 		"* I REMEMBER YOU *",
 	["AllianceEnemyText"] = 	"ITSOFHGDBF",
 	["HordeEnemyText"] = 		"JVOPEHICHKL",
@@ -425,7 +425,7 @@ LeeroyHillCatsPower_data["kill"] = {
 	["file"] = dir.."killbill",
 };
 
-LeeroyHillCatsPower_data["topgun"] = {
+KekwSoundBoard_data["topgun"] = {
 	["text"] = 		"* HIGHWAY TO THE DANGER ZONE!! *",
 	["AllianceEnemyText"] = 	"GFIGFSDGFJSDKGJKFGSV",
 	["HordeEnemyText"] = 		"RYEWITYISBVSDGJHSDFK",
@@ -434,7 +434,7 @@ LeeroyHillCatsPower_data["topgun"] = {
 	["file"] = dir.."topgun",
 };
 
-LeeroyHillCatsPower_data["tralala"] = {
+KekwSoundBoard_data["tralala"] = {
 	["text"] = 		"* Ooh, you touch my tralala...! *",
 	["AllianceEnemyText"] = 	"GWARSHJHOTIH",
 	["HordeEnemyText"] = 		"TYIHFDGFGDNTHUCSHFS",
@@ -443,7 +443,7 @@ LeeroyHillCatsPower_data["tralala"] = {
 	["file"] = dir.."tralala",
 };
 
-LeeroyHillCatsPower_data["katamari"] = {
+KekwSoundBoard_data["katamari"] = {
 	["text"] = 		"* NAA NANANANANA KATAMARI DAMACY! *",
 	["AllianceEnemyText"] = 	"NUUU'VOOIHKLFHSL",
 	["HordeEnemyText"] = 		"LVHSKLVSL'PIODS'VSHL",
@@ -452,7 +452,7 @@ LeeroyHillCatsPower_data["katamari"] = {
 	["file"] = dir.."katamari",
 };
 
-LeeroyHillCatsPower_data["noo"] = {
+KekwSoundBoard_data["noo"] = {
 	["text"] = 		"* NOOOOOOOOO! *",
 	["AllianceEnemyText"] = 	"KAAAAAAAAA!",
 	["HordeEnemyText"] = 		"MQQQQQQQQQ!",
@@ -460,7 +460,7 @@ LeeroyHillCatsPower_data["noo"] = {
 	["file"] = dir.."noooo",
 };
 
-LeeroyHillCatsPower_data["whatislove"] = {
+KekwSoundBoard_data["whatislove"] = {
 	["text"] = 		"* WHAT IS LOVE? *",
 	["AllianceEnemyText"] = 	"HHFGSLBN'IOGUS'PLIN?",
 	["HordeEnemyText"] = 		"ZHGLHS'GO'OWIH?",
@@ -469,7 +469,7 @@ LeeroyHillCatsPower_data["whatislove"] = {
 	["file"] = dir.."whatislove",
 };
 
-LeeroyHillCatsPower_data["moskau"] = {
+KekwSoundBoard_data["moskau"] = {
 	["text"] = 		"* MOSKAU! MOSKAU! *",
 	["AllianceEnemyText"] = 	"HSVZFGSS'HFLSDLF!",
 	["HordeEnemyText"] = 		"GSGHSLSH'YEROWYS!",
@@ -478,7 +478,7 @@ LeeroyHillCatsPower_data["moskau"] = {
 	["file"] = dir.."moskau",
 };
 
-LeeroyHillCatsPower_data["rit9"] = {
+KekwSoundBoard_data["rit9"] = {
 	["text"] = 		"* Running in the 90's! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -487,7 +487,7 @@ LeeroyHillCatsPower_data["rit9"] = {
 	["file"] = dir.."rit9",
 };
 
-LeeroyHillCatsPower_data["crawl"] = {
+KekwSoundBoard_data["crawl"] = {
 	["text"] = 		"* CRAWLING IN MY SKIN! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -497,7 +497,7 @@ LeeroyHillCatsPower_data["crawl"] = {
 	["file"] = dir.."crawl",
 };
 
-LeeroyHillCatsPower_data["cotc"] = {
+KekwSoundBoard_data["cotc"] = {
 	["text"] = 		"* CORN ON THE COB! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -505,7 +505,7 @@ LeeroyHillCatsPower_data["cotc"] = {
 	["file"] = dir.."cotc",
 };
 
-LeeroyHillCatsPower_data["leek"] = {
+KekwSoundBoard_data["leek"] = {
 	["text"] = 		"* Yaa tsi tsup ari.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -513,7 +513,7 @@ LeeroyHillCatsPower_data["leek"] = {
 	["file"] = dir.."leek",
 };
 
-LeeroyHillCatsPower_data["milks"] = {
+KekwSoundBoard_data["milks"] = {
 	["text"] = 		"* Milkshake! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -521,7 +521,7 @@ LeeroyHillCatsPower_data["milks"] = {
 	["file"] = dir.."milkshake",
 };
 
-LeeroyHillCatsPower_data["bde"] = {
+KekwSoundBoard_data["bde"] = {
 	["text"] = 		"* Best day ever! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -530,7 +530,7 @@ LeeroyHillCatsPower_data["bde"] = {
 	["file"] = dir.."bde",
 };
 
-LeeroyHillCatsPower_data["nedm"] = {
+KekwSoundBoard_data["nedm"] = {
 	["text"] =		"* N E D M *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -539,7 +539,7 @@ LeeroyHillCatsPower_data["nedm"] = {
 	["file"] = dir.."nedm",
 };
 	
-LeeroyHillCatsPower_data["nint64"] = {
+KekwSoundBoard_data["nint64"] = {
 	["text"] =		"* OMG NINTENDO SIXTY-FOUR!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -548,7 +548,7 @@ LeeroyHillCatsPower_data["nint64"] = {
 	["file"] = dir.."nintendo64",
 };
 
-LeeroyHillCatsPower_data["demon"] = {
+KekwSoundBoard_data["demon"] = {
 	["text"] =		"* ..is a demon slayer *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -556,14 +556,14 @@ LeeroyHillCatsPower_data["demon"] = {
 	["file"] = dir.."the mystery song",
 };
 
-LeeroyHillCatsPower_data["wrong"] = {
+KekwSoundBoard_data["wrong"] = {
 	["text"] =		"* WRONG!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["msg"] = " proves you wrong.",
 	["file"] = dir.."wrong",
 };
-LeeroyHillCatsPower_data["finalfantasy"] = {
+KekwSoundBoard_data["finalfantasy"] = {
 	["text"] = 		"* Attacked by Green Ogre! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -572,7 +572,7 @@ LeeroyHillCatsPower_data["finalfantasy"] = {
 	["file"] = dir.."ff-fightsong-start.mp3",
 };
 
-LeeroyHillCatsPower_data["finalfantasyloop"] = {
+KekwSoundBoard_data["finalfantasyloop"] = {
 	["text"] = 		"* Green Ogre 6hits -9999! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -581,7 +581,7 @@ LeeroyHillCatsPower_data["finalfantasyloop"] = {
 	["file"] = dir.."ff-fightsong-loop.mp3",
 };
 
-LeeroyHillCatsPower_data["win"] = {
+KekwSoundBoard_data["win"] = {
 	["text"] = 		"* YOU ARE A WINNER! *",
 	["AllianceEnemyText"] = 	"PGOHEIPFHDKLN",
 	["HordeEnemyText"] = 		"EIOPHFDKLNCDL",
@@ -590,7 +590,7 @@ LeeroyHillCatsPower_data["win"] = {
 	["file"] = dir.."victory.mp3",
 };
 
-LeeroyHillCatsPower_data["rocky"] = {
+KekwSoundBoard_data["rocky"] = {
 	["text"] = 		"* Who wants to PVP! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -599,7 +599,7 @@ LeeroyHillCatsPower_data["rocky"] = {
 	["file"] = dir.."rocky.mp3",
 };
 
-LeeroyHillCatsPower_data["rff"] = {
+KekwSoundBoard_data["rff"] = {
 	["text"] = 		"* FEUER FREI! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -608,7 +608,7 @@ LeeroyHillCatsPower_data["rff"] = {
 	["file"] = dir.."rff.mp3",
 };
 
-LeeroyHillCatsPower_data["naruto"] = {
+KekwSoundBoard_data["naruto"] = {
 	["text"] = 		"* NARUTARD POWA! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -617,7 +617,7 @@ LeeroyHillCatsPower_data["naruto"] = {
 	["file"] = dir.."hv.mp3",
 };
 
-LeeroyHillCatsPower_data["pkmn"] = {
+KekwSoundBoard_data["pkmn"] = {
 	["text"] = 		"* Gotta catch em all! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -625,7 +625,7 @@ LeeroyHillCatsPower_data["pkmn"] = {
 	["file"] = dir.."pokemon.mp3",
 };
 
-LeeroyHillCatsPower_data["pkmn2"] = {
+KekwSoundBoard_data["pkmn2"] = {
 	["text"] = 		"* Wild NUB wants to fight! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -633,7 +633,7 @@ LeeroyHillCatsPower_data["pkmn2"] = {
 	["file"] = dir.."pokemon2.mp3",
 };
 
-LeeroyHillCatsPower_data["pwrr"] = {
+KekwSoundBoard_data["pwrr"] = {
 	["text"] = 		"* GO GO POWER RANGERS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -642,7 +642,7 @@ LeeroyHillCatsPower_data["pwrr"] = {
 	["file"] = dir.."pwrrngs.mp3",
 };
 
-LeeroyHillCatsPower_data["ateam"] = {
+KekwSoundBoard_data["ateam"] = {
 	["text"] = 		"* The A TEAM! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -651,7 +651,7 @@ LeeroyHillCatsPower_data["ateam"] = {
 	["file"] = dir.."ateam.mp3",
 };
 
-LeeroyHillCatsPower_data["mortal"] = {
+KekwSoundBoard_data["mortal"] = {
 	["text"] = 		"* MORTAL KOMBAT! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -660,7 +660,7 @@ LeeroyHillCatsPower_data["mortal"] = {
 	["file"] = dir.."mortal.mp3",
 };
 
-LeeroyHillCatsPower_data["imp"] = {
+KekwSoundBoard_data["imp"] = {
 	["text"] = 		"* DUN DUN DUN! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -669,7 +669,7 @@ LeeroyHillCatsPower_data["imp"] = {
 	["file"] = dir.."imperial_march.mp3",
 };
 
-LeeroyHillCatsPower_data["tiger"] = {
+KekwSoundBoard_data["tiger"] = {
 	["text"] =		"* Eye of the Tiger! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -677,7 +677,7 @@ LeeroyHillCatsPower_data["tiger"] = {
 	["emote"] = "ready",
 	["file"] = dir.."eyeofthetiger.mp3",
 };
-LeeroyHillCatsPower_data["megatron"] = {
+KekwSoundBoard_data["megatron"] = {
 	["text"] = 		"* Excellent. Yeeessss! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -685,7 +685,7 @@ LeeroyHillCatsPower_data["megatron"] = {
 	["file"] = dir.."megatron.mp3",
 };
 
-LeeroyHillCatsPower_data["llap"] = {
+KekwSoundBoard_data["llap"] = {
 	["text"] = 		"* Live long and prosper. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -693,7 +693,7 @@ LeeroyHillCatsPower_data["llap"] = {
 	["file"] = dir.."llap.mp3",
 };
 
-LeeroyHillCatsPower_data["rollout"] = {
+KekwSoundBoard_data["rollout"] = {
 	["text"] = 		"* Autobots, transform and roll out. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -701,7 +701,7 @@ LeeroyHillCatsPower_data["rollout"] = {
 	["file"] = dir.."rollout.mp3",
 };
 
-LeeroyHillCatsPower_data["facedeath"] = {
+KekwSoundBoard_data["facedeath"] = {
 	["text"] = 		"* Your just another weak human afraid to face death. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -709,7 +709,7 @@ LeeroyHillCatsPower_data["facedeath"] = {
 	["file"] = dir.."facedeath.mp3",
 };
 
-LeeroyHillCatsPower_data["darkside"] = {
+KekwSoundBoard_data["darkside"] = {
 	["text"] = 		"* You don't know the power of the dark side. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -717,7 +717,7 @@ LeeroyHillCatsPower_data["darkside"] = {
 	["file"] = dir.."darkside.mp3",
 };
 
-LeeroyHillCatsPower_data["bigboned"] = {
+KekwSoundBoard_data["bigboned"] = {
 	["text"] = 		"* I'm not fat. I'm big boned. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -725,7 +725,7 @@ LeeroyHillCatsPower_data["bigboned"] = {
 	["file"] = dir.."bigboned.mp3",
 };
 
-LeeroyHillCatsPower_data["chiksex"] = {
+KekwSoundBoard_data["chiksex"] = {
 	["text"] = 		"* Sorry I had sex with a chicken. I won't do it again. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -733,7 +733,7 @@ LeeroyHillCatsPower_data["chiksex"] = {
 	["file"] = dir.."chiksex.mp3",
 };
 
-LeeroyHillCatsPower_data["jedimaster"] = {
+KekwSoundBoard_data["jedimaster"] = {
 	["text"] = 		"* Don't %$#& with a Jedi Master, son. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -741,7 +741,7 @@ LeeroyHillCatsPower_data["jedimaster"] = {
 	["file"] = dir.."jedimaster.mp3",
 };
 
-LeeroyHillCatsPower_data["thepulse"] = {
+KekwSoundBoard_data["thepulse"] = {
 	["text"] = 		"* Here's the pulse. Here's your finger. Far from the pulse, jammed straight up your ass. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -749,7 +749,7 @@ LeeroyHillCatsPower_data["thepulse"] = {
 	["file"] = dir.."thepulse.mp3",
 };
 
-LeeroyHillCatsPower_data["chewy"] = {
+KekwSoundBoard_data["chewy"] = {
 	["text"] = 		"* Raaaaaawwwwwww. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -757,7 +757,7 @@ LeeroyHillCatsPower_data["chewy"] = {
 	["file"] = dir.."chewy.mp3",
 };
 
-LeeroyHillCatsPower_data["donthug"] = {
+KekwSoundBoard_data["donthug"] = {
 	["text"] = 		"* Do not hug me. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -765,7 +765,7 @@ LeeroyHillCatsPower_data["donthug"] = {
 	["file"] = dir.."donthug.mp3",
 };
 
-LeeroyHillCatsPower_data["authority"] = {
+KekwSoundBoard_data["authority"] = {
 	["text"] = 		"* Maybe this will teach you to listen to authority! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -773,7 +773,7 @@ LeeroyHillCatsPower_data["authority"] = {
 	["file"] = dir.."authority.mp3",
 };
 
-LeeroyHillCatsPower_data["redalert"] = {
+KekwSoundBoard_data["redalert"] = {
 	["text"] = 		"* Red Alert. Battle stations. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -781,7 +781,7 @@ LeeroyHillCatsPower_data["redalert"] = {
 	["file"] = dir.."redalert.mp3",
 };
 
-LeeroyHillCatsPower_data["sidious"] = {
+KekwSoundBoard_data["sidious"] = {
 	["text"] = 		"* Wipe them out. All of them *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -789,7 +789,7 @@ LeeroyHillCatsPower_data["sidious"] = {
 	["file"] = dir.."sidious.mp3",
 };
 
-LeeroyHillCatsPower_data["twoap"] = {
+KekwSoundBoard_data["twoap"] = {
 	["text"] = 		"* 2 %$#&ing AP! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -797,7 +797,7 @@ LeeroyHillCatsPower_data["twoap"] = {
 	["file"] = dir.."twoap.mp3",
 };
 
-LeeroyHillCatsPower_data["jasb1"] = {
+KekwSoundBoard_data["jasb1"] = {
 	["text"] = 		"* Jay and Silent Bob are in the house! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -805,7 +805,7 @@ LeeroyHillCatsPower_data["jasb1"] = {
 	["file"] = dir.."jasb1.mp3",
 };
 
-LeeroyHillCatsPower_data["jasb2"] = {
+KekwSoundBoard_data["jasb2"] = {
 	["text"] = 		"* Freeze, you terrorist sons of bitches!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -813,7 +813,7 @@ LeeroyHillCatsPower_data["jasb2"] = {
 	["file"] = dir.."jasb2.mp3",
 };
 
-LeeroyHillCatsPower_data["trynot"] = {
+KekwSoundBoard_data["trynot"] = {
 	["text"] = 		"* Do, or do not. There is no try. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -821,7 +821,7 @@ LeeroyHillCatsPower_data["trynot"] = {
 	["file"] = dir.."trynot.mp3",
 };
 
-LeeroyHillCatsPower_data["theone"] = {
+KekwSoundBoard_data["theone"] = {
 	["text"] = 		"* I am nobodys bitch. You are mine! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -829,7 +829,7 @@ LeeroyHillCatsPower_data["theone"] = {
 	["file"] = dir.."theone.mp3",
 };
 
-LeeroyHillCatsPower_data["wtf"] = {
+KekwSoundBoard_data["wtf"] = {
 	["text"] = 		"* What the f%$#? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -837,7 +837,7 @@ LeeroyHillCatsPower_data["wtf"] = {
 	["file"] = dir.."wtf.mp3",
 };
 
-LeeroyHillCatsPower_data["authority"] = {
+KekwSoundBoard_data["authority"] = {
 	["text"] = 		"* Maybe this will teach you to listen to authority! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -845,7 +845,7 @@ LeeroyHillCatsPower_data["authority"] = {
 	["file"] = dir.."authority.mp3",
 };
 
-LeeroyHillCatsPower_data["prime"] = {
+KekwSoundBoard_data["prime"] = {
 	["text"] = 		"* Well, that's just Prime. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -853,7 +853,7 @@ LeeroyHillCatsPower_data["prime"] = {
 	["file"] = dir.."prime.mp3",
 };
 
-LeeroyHillCatsPower_data["info"] = {
+KekwSoundBoard_data["info"] = {
 	["text"] = 		"* I'm the boss..... Need the info.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -861,7 +861,7 @@ LeeroyHillCatsPower_data["info"] = {
 	["file"] = dir.."info.mp3",
 };
 
-LeeroyHillCatsPower_data["rbobby"] = {
+KekwSoundBoard_data["rbobby"] = {
 	["text"] = 		"* HELP ME!!!!!!!!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -869,7 +869,7 @@ LeeroyHillCatsPower_data["rbobby"] = {
 	["file"] = dir.."rbobby.mp3",
 };
 
-LeeroyHillCatsPower_data["poc"] = {
+KekwSoundBoard_data["poc"] = {
 	["text"] = 		"* THE POWER OF CHRIST COMPELS YOU! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -877,7 +877,7 @@ LeeroyHillCatsPower_data["poc"] = {
 	["file"] = dir.."powerofchrist.mp3",
 };
 
-LeeroyHillCatsPower_data["father"] = {
+KekwSoundBoard_data["father"] = {
 	["text"] = 		"* I am your father. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -885,7 +885,7 @@ LeeroyHillCatsPower_data["father"] = {
 	["file"] = dir.."vaderfather.mp3",
 };
 
-LeeroyHillCatsPower_data["jedi"] = {
+KekwSoundBoard_data["jedi"] = {
 	["text"] = 		"* The force is with you young skywalker. But you are not a jedi yet. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -893,7 +893,7 @@ LeeroyHillCatsPower_data["jedi"] = {
 	["file"] = dir.."vaderjedi.mp3",
 };
 
-LeeroyHillCatsPower_data["scumbag"] = {
+KekwSoundBoard_data["scumbag"] = {
 	["text"] = 		"* Were you born a scumbag?. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -901,7 +901,7 @@ LeeroyHillCatsPower_data["scumbag"] = {
 	["file"] = dir.."bornscumbag.mp3",
 };
 
-LeeroyHillCatsPower_data["vagin"] = {
+KekwSoundBoard_data["vagin"] = {
 	["text"] = 		"* I want entry to your vagin. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -909,14 +909,14 @@ LeeroyHillCatsPower_data["vagin"] = {
 	["file"] = dir.."entrytovagin.mp3",
 };
 
-LeeroyHillCatsPower_data["fu"] = {
+KekwSoundBoard_data["fu"] = {
 	["text"] = 		"* Fuck you asshole! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."fu.mp3",
 };
 
-LeeroyHillCatsPower_data["gotohell"] = {
+KekwSoundBoard_data["gotohell"] = {
 	["text"] = 		"* If I were human, I believe my response would be, go to hell.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -924,21 +924,21 @@ LeeroyHillCatsPower_data["gotohell"] = {
 	["file"] = dir.."gotohell.mp3",
 };
 
-LeeroyHillCatsPower_data["balls"] = {
+KekwSoundBoard_data["balls"] = {
 	["text"] = 		"* I think you need your balls reattached. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."reattached.mp3",
 };
 
-LeeroyHillCatsPower_data["sis"] = {
+KekwSoundBoard_data["sis"] = {
 	["text"] = 		"* I like you. You can come over to my house and fuck my sister! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."sister.mp3",
 };
 
-LeeroyHillCatsPower_data["ssfart"] = {
+KekwSoundBoard_data["ssfart"] = {
 	["text"] = 		"* Surround sound fart! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -946,34 +946,34 @@ LeeroyHillCatsPower_data["ssfart"] = {
 	["file"] = dir.."fart.mp3",
 };
 
-LeeroyHillCatsPower_data["ssx"] = {
+KekwSoundBoard_data["ssx"] = {
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."ssx.mp3",
 };
 
-LeeroyHillCatsPower_data["suck"] = {
+KekwSoundBoard_data["suck"] = {
 	["text"] = 		"* You Suck! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."yousuck.mp3",
 };
 
-LeeroyHillCatsPower_data["gum"] = {
+KekwSoundBoard_data["gum"] = {
 	["text"] = 		"* I'm here to kick ass and chew bubblegum... And i'm all out of gum. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."gum.mp3",
 };
 
-LeeroyHillCatsPower_data["httk"] = {
+KekwSoundBoard_data["httk"] = {
 	["text"] = 		"* Hail to the king, baby. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."httk.mp3",
 };
 
-LeeroyHillCatsPower_data["gas"] = {
+KekwSoundBoard_data["gas"] = {
 	["text"] = 		"",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -981,13 +981,13 @@ LeeroyHillCatsPower_data["gas"] = {
 	["file"] = dir.."gas.mp3",
 };
 
-LeeroyHillCatsPower_data["cgs"] = {
+KekwSoundBoard_data["cgs"] = {
 	["text"] = 		"* Come get some! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."cgs.mp3",
 };
-LeeroyHillCatsPower_data["unstoppable"] = {
+KekwSoundBoard_data["unstoppable"] = {
 	["text"] = 		"* UNSTOPPABLE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -995,7 +995,7 @@ LeeroyHillCatsPower_data["unstoppable"] = {
 	["file"] = dir.."unstoppable.mp3",
 };
 
-LeeroyHillCatsPower_data["humiliation"] = {
+KekwSoundBoard_data["humiliation"] = {
 	["text"] = 		"* HUMILIATION! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1004,7 +1004,7 @@ LeeroyHillCatsPower_data["humiliation"] = {
 	["file"] = dir.."humiliation.mp3",
 };
 
-LeeroyHillCatsPower_data["rampage"] = {
+KekwSoundBoard_data["rampage"] = {
 	["text"] = 		"* RAMPAGE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1012,7 +1012,7 @@ LeeroyHillCatsPower_data["rampage"] = {
 	["file"] = dir.."rampage.mp3",
 };
 
-LeeroyHillCatsPower_data["ultrakill"] = {
+KekwSoundBoard_data["ultrakill"] = {
 	["text"] = 		"* ULTRA KILL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1020,7 +1020,7 @@ LeeroyHillCatsPower_data["ultrakill"] = {
 	["file"] = dir.."ultrakill.mp3",
 };
 
-LeeroyHillCatsPower_data["killingspree"] = {
+KekwSoundBoard_data["killingspree"] = {
 	["text"] = 		"* KILLING SPREE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1028,7 +1028,7 @@ LeeroyHillCatsPower_data["killingspree"] = {
 	["file"] = dir.."killingspree.mp3",
 };
 
-LeeroyHillCatsPower_data["prepare"] = {
+KekwSoundBoard_data["prepare"] = {
 	["text"] = 		"* PREPARE TO FIGHT! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1036,7 +1036,7 @@ LeeroyHillCatsPower_data["prepare"] = {
 	["file"] = dir.."prepare.mp3",
 };
 
-LeeroyHillCatsPower_data["xkill"] = {
+KekwSoundBoard_data["xkill"] = {
 	["text"] = 		"* MULTI KILL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1044,7 +1044,7 @@ LeeroyHillCatsPower_data["xkill"] = {
 	["file"] = dir.."xkill.mp3",
 };
 
-LeeroyHillCatsPower_data["mkill"] = {
+KekwSoundBoard_data["mkill"] = {
 	["text"] = 		"* MONSTER KILL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1053,7 +1053,7 @@ LeeroyHillCatsPower_data["mkill"] = {
 	["file"] = dir.."monsterkill.mp3",
 };
 
-LeeroyHillCatsPower_data["glike"] = {
+KekwSoundBoard_data["glike"] = {
 	["text"] = 		"* GOD LIKE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1061,7 +1061,7 @@ LeeroyHillCatsPower_data["glike"] = {
 	["file"] = dir.."godlike.mp3",
 };
 
-LeeroyHillCatsPower_data["bomb"] = {
+KekwSoundBoard_data["bomb"] = {
 	["text"] = 		"* SOME SET US UP THE BOMB! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1070,7 +1070,7 @@ LeeroyHillCatsPower_data["bomb"] = {
 };
 
 
-LeeroyHillCatsPower_data["headshot"] = {
+KekwSoundBoard_data["headshot"] = {
 	["text"] = 		"* HEADSHOT *",
 	["AllianceEnemyText"] = 	"HGPERIHGDNFGV",
 	["HordeEnemyText"] = 		"IEOFSSLBDLS",
@@ -1079,14 +1079,14 @@ LeeroyHillCatsPower_data["headshot"] = {
 	["file"] = dir.."headshot.mp3",
 };
 
-LeeroyHillCatsPower_data["fpsdoug"] = {
+KekwSoundBoard_data["fpsdoug"] = {
 	["text"] = 		"* IT'S LIKE BOOM HS!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["msg"] = " molds his hands into holding an Arctic Warfare Magnum.",
 	["file"] = dir.."BOOMHS.mp3",
 };
-LeeroyHillCatsPower_data["lind"] = {
+KekwSoundBoard_data["lind"] = {
 	["text"] = 		"* LOVE IS IN DANGER! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1095,7 +1095,7 @@ LeeroyHillCatsPower_data["lind"] = {
 	["file"] = dir.."lind.mp3",
 };
 
-LeeroyHillCatsPower_data["nof"] = {
+KekwSoundBoard_data["nof"] = {
 	["text"] = 		"* NIGHT OF FIRE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1104,7 +1104,7 @@ LeeroyHillCatsPower_data["nof"] = {
 	["file"] = dir.."nof.mp3",
 };
 
-LeeroyHillCatsPower_data["gp"] = {
+KekwSoundBoard_data["gp"] = {
 	["text"] = 		"* Grand Prix! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1113,7 +1113,7 @@ LeeroyHillCatsPower_data["gp"] = {
 	["file"] = dir.."gp.mp3",
 };
 
-LeeroyHillCatsPower_data["hb"] = {
+KekwSoundBoard_data["hb"] = {
 	["text"] = 		"* Heartbeat! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1122,7 +1122,7 @@ LeeroyHillCatsPower_data["hb"] = {
 	["file"] = dir.."heart.mp3",
 };
 
-LeeroyHillCatsPower_data["yatta"] = {
+KekwSoundBoard_data["yatta"] = {
 	["text"] = 		"* YATTA! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1130,7 +1130,7 @@ LeeroyHillCatsPower_data["yatta"] = {
 	["emote"] = "dance",
 	["file"] = dir.."yatta.mp3",
 };
-LeeroyHillCatsPower_data["wryy"] = {
+KekwSoundBoard_data["wryy"] = {
 	["text"] = 		"* WRYYYYY! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1139,7 +1139,7 @@ LeeroyHillCatsPower_data["wryy"] = {
 	["file"] = dir.."WRYYYYYYYYYYY.mp3",
 };
 
-LeeroyHillCatsPower_data["desu"] = {
+KekwSoundBoard_data["desu"] = {
 	["text"] = 		"* Soshite toki ga ugoki desu. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1147,7 +1147,7 @@ LeeroyHillCatsPower_data["desu"] = {
 	["file"] = dir.."desu.mp3",
 };
 
-LeeroyHillCatsPower_data["toki"] = {
+KekwSoundBoard_data["toki"] = {
 	["text"] = 		"* TOKI WO TOMARE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1155,7 +1155,7 @@ LeeroyHillCatsPower_data["toki"] = {
 	["file"] = dir.."toki.mp3",
 };
 
-LeeroyHillCatsPower_data["zaw"] = {
+KekwSoundBoard_data["zaw"] = {
 	["text"] = 		"* ZA WARUDO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1164,7 +1164,7 @@ LeeroyHillCatsPower_data["zaw"] = {
 	["file"] = dir.."zawarudo.mp3",
 };
 
-LeeroyHillCatsPower_data["mudabu"] = {
+KekwSoundBoard_data["mudabu"] = {
 	["text"] = 		"* MUDABUDABUDA! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1172,14 +1172,14 @@ LeeroyHillCatsPower_data["mudabu"] = {
 	["file"] = dir.."mudabudabuda.mp3",
 };
 
-LeeroyHillCatsPower_data["muda"] = {
+KekwSoundBoard_data["muda"] = {
 	["text"] = 		"* MUDADA! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["msg"] = " does not think so!",
 	["file"] = dir.."mudada.mp3",
 };
-LeeroyHillCatsPower_data["db"] = {
+KekwSoundBoard_data["db"] = {
 	["text"] = 		"* Dont you have some poor defenseless Human to Disembowl! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1187,7 +1187,7 @@ LeeroyHillCatsPower_data["db"] = {
 	["file"] = dir.."db.mp3",
 };
 
-LeeroyHillCatsPower_data["troops"] = {
+KekwSoundBoard_data["troops"] = {
 	["text"] = 		"* Alert the troops, We attack at dawn. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1195,7 +1195,7 @@ LeeroyHillCatsPower_data["troops"] = {
 	["file"] = dir.."troops.mp3",
 };
 
-LeeroyHillCatsPower_data["rickjames"] = {
+KekwSoundBoard_data["rickjames"] = {
 	["text"] = 		"* Im Rickjames bitch. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1203,7 +1203,7 @@ LeeroyHillCatsPower_data["rickjames"] = {
 	["file"] = dir.."rickjames.mp3",
 };
 
-LeeroyHillCatsPower_data["stewie1"] = {
+KekwSoundBoard_data["stewie1"] = {
 	["text"] = 		"* This is my crossbow, This is my gun, This ones for fighting, this ones for fun. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1211,7 +1211,7 @@ LeeroyHillCatsPower_data["stewie1"] = {
 	["file"] = dir.."stewie1.mp3",
 };
 
-LeeroyHillCatsPower_data["victory"] = {
+KekwSoundBoard_data["victory"] = {
 	["text"] = 		"* Victory is mine. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1219,7 +1219,7 @@ LeeroyHillCatsPower_data["victory"] = {
 	["file"] = dir.."victory.mp3",
 };
 
-LeeroyHillCatsPower_data["xfile"] = {
+KekwSoundBoard_data["xfile"] = {
 	["text"] = 		"* Alliance screwing sheep? sounds like an xfile. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1227,7 +1227,7 @@ LeeroyHillCatsPower_data["xfile"] = {
 	["file"] = dir.."xfile.mp3",
 };
 
-LeeroyHillCatsPower_data["brain"] = {
+KekwSoundBoard_data["brain"] = {
 	["text"] = 		"* Alright brain, you dont like me and i dont like you but lets through this and i can get back to killing you with beer. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1236,7 +1236,7 @@ LeeroyHillCatsPower_data["brain"] = {
 
 };
 
-LeeroyHillCatsPower_data["rosham"] = {
+KekwSoundBoard_data["rosham"] = {
 	["text"] = 		"* Wants to roshambo you for it. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1244,7 +1244,7 @@ LeeroyHillCatsPower_data["rosham"] = {
 	["file"] = dir.."rosham.mp3",
 };
 
-LeeroyHillCatsPower_data["blade"] = {
+KekwSoundBoard_data["blade"] = {
 	["text"] = 		"* Enters the Thrall Techno Club. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1252,7 +1252,7 @@ LeeroyHillCatsPower_data["blade"] = {
 	["file"] = dir.."blade.mp3",
 };
 
-LeeroyHillCatsPower_data["despicable"] = {
+KekwSoundBoard_data["despicable"] = {
 	["text"] = 		"* Your Despicable. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1260,7 +1260,7 @@ LeeroyHillCatsPower_data["despicable"] = {
 	["file"] = dir.."despicable.mp3",
 };
 
-LeeroyHillCatsPower_data["damned"] = {
+KekwSoundBoard_data["damned"] = {
 	["text"] = 		"* Your damned if your do, your damned if you dont. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1268,7 +1268,7 @@ LeeroyHillCatsPower_data["damned"] = {
 	["file"] = dir.."damned.mp3",
 };
 
-LeeroyHillCatsPower_data["IOUS"] = {
+KekwSoundBoard_data["IOUS"] = {
 	["text"] = 		"* Its official you Suck! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1276,7 +1276,7 @@ LeeroyHillCatsPower_data["IOUS"] = {
 	["file"] = dir.."IOUS.mp3",
 };
 
-LeeroyHillCatsPower_data["donotgo"] = {
+KekwSoundBoard_data["donotgo"] = {
 	["text"] = 		"* Do not go in there. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1284,7 +1284,7 @@ LeeroyHillCatsPower_data["donotgo"] = {
 	["file"] = dir.."donotgo.mp3",
 };
 
-LeeroyHillCatsPower_data["numnuts"] = {
+KekwSoundBoard_data["numnuts"] = {
 	["text"] = 		"* What is your major malfunction Numnuts*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1292,14 +1292,14 @@ LeeroyHillCatsPower_data["numnuts"] = {
 	["file"] = dir.."numnuts.mp3",
 };
 
-LeeroyHillCatsPower_data["to"] = {
+KekwSoundBoard_data["to"] = {
 	["text"] = 		"* At what point did you forget WERE TRYING TO TAKE OVER THE WORLD*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."to.mp3",
 };
 
-LeeroyHillCatsPower_data["beback"] = {
+KekwSoundBoard_data["beback"] = {
 	["text"] = 		"* I'll be back. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1307,7 +1307,7 @@ LeeroyHillCatsPower_data["beback"] = {
 	["file"] = dir.."beback.mp3",
 };
 
-LeeroyHillCatsPower_data["hasta"] = {
+KekwSoundBoard_data["hasta"] = {
 	["text"] = 		"* Hasta La Vista Baby. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1315,7 +1315,7 @@ LeeroyHillCatsPower_data["hasta"] = {
 	["file"] = dir.."hasta.mp3",
 };
 
-LeeroyHillCatsPower_data["mkedit"] = {
+KekwSoundBoard_data["mkedit"] = {
 	["text"] = 		"* Test your might. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1323,7 +1323,7 @@ LeeroyHillCatsPower_data["mkedit"] = {
 	["file"] = dir.."mkedit.mp3",
 };
 
-LeeroyHillCatsPower_data["pg"] = {
+KekwSoundBoard_data["pg"] = {
 	["text"] = 		"* Pussy gnomes. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1331,7 +1331,7 @@ LeeroyHillCatsPower_data["pg"] = {
 	["file"] = dir.."pg.mp3",
 };
 
-LeeroyHillCatsPower_data["chefsong"] = {
+KekwSoundBoard_data["chefsong"] = {
 	["text"] = 		"* Say Everybody have you seen my balls, there big salty and brown. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1339,7 +1339,7 @@ LeeroyHillCatsPower_data["chefsong"] = {
 	["file"] = dir.."chefsong.mp3",
 };
 
-LeeroyHillCatsPower_data["smellslikeass"] = {
+KekwSoundBoard_data["smellslikeass"] = {
 	["text"] = 		"* Oh man it smells like ass in alliance territory. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1347,7 +1347,7 @@ LeeroyHillCatsPower_data["smellslikeass"] = {
 	["file"] = dir.."smellslikeass.mp3",
 };
 
-LeeroyHillCatsPower_data["pussy"] = {
+KekwSoundBoard_data["pussy"] = {
 	["text"] = 		"* Is that all you got pussy. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1355,7 +1355,7 @@ LeeroyHillCatsPower_data["pussy"] = {
 	["file"] = dir.."pussy.mp3",
 };
 
-LeeroyHillCatsPower_data["bologna"] = {
+KekwSoundBoard_data["bologna"] = {
 	["text"] = 		"* Looks like Nitrosoxide taking a ride on the bologna pony. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1363,7 +1363,7 @@ LeeroyHillCatsPower_data["bologna"] = {
 	["file"] = dir.."bologna.mp3",
 };
 
-LeeroyHillCatsPower_data["witchtit"] = {
+KekwSoundBoard_data["witchtit"] = {
 	["text"] = 		"* Its Colder than a witches titty out here. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1371,7 +1371,7 @@ LeeroyHillCatsPower_data["witchtit"] = {
 	["file"] = dir.."witchtit.mp3",
 };
 
-LeeroyHillCatsPower_data["salami"] = {
+KekwSoundBoard_data["salami"] = {
 	["text"] = 		"* Looks like Nitrosoxide is slipping her the old salami. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1379,7 +1379,7 @@ LeeroyHillCatsPower_data["salami"] = {
 	["file"] = dir.."salami.mp3",
 };
 
-LeeroyHillCatsPower_data["tunatown"] = {
+KekwSoundBoard_data["tunatown"] = {
 	["text"] = 		"* Looks like Nitrosoxide is taking the skin boat to tuna town. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1387,21 +1387,21 @@ LeeroyHillCatsPower_data["tunatown"] = {
 	["file"] = dir.."tunatown.mp3",
 };
 
-LeeroyHillCatsPower_data["holynight"] = {
+KekwSoundBoard_data["holynight"] = {
 	["text"] = 		"* Oh Holy night. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."holynight.mp3",
 };
 
-LeeroyHillCatsPower_data["rabies"] = {
+KekwSoundBoard_data["rabies"] = {
 	["text"] = 		"* It bit me. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["file"] = dir.."rabies.mp3",
 };
 
-LeeroyHillCatsPower_data["sayhello"] = {
+KekwSoundBoard_data["sayhello"] = {
 	["text"] = 		"* Say hello to my little friend. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1409,7 +1409,7 @@ LeeroyHillCatsPower_data["sayhello"] = {
 	["file"] = dir.."sayhello.mp3",
 };
 
-LeeroyHillCatsPower_data["belly"] = {
+KekwSoundBoard_data["belly"] = {
 	["text"] = 		"* Get In my belly. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1417,7 +1417,7 @@ LeeroyHillCatsPower_data["belly"] = {
 	["file"] = dir.."belly.mp3",
 };
 
-LeeroyHillCatsPower_data["bleep"] = {
+KekwSoundBoard_data["bleep"] = {
 	["text"] = 		"* CENSORED $$$$$$$ $$$$$$ $$$$$$$. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1425,7 +1425,7 @@ LeeroyHillCatsPower_data["bleep"] = {
 	["file"] = dir.."bleep.mp3",
 };
 
-LeeroyHillCatsPower_data["chickenpop"] = {
+KekwSoundBoard_data["chickenpop"] = {
 	["text"] = 		"* Popeyes chicken is F**king awesome!!!!. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1433,7 +1433,7 @@ LeeroyHillCatsPower_data["chickenpop"] = {
 	["file"] = dir.."chickenpop.mp3",
 };
 
-LeeroyHillCatsPower_data["darkpower"] = {
+KekwSoundBoard_data["darkpower"] = {
 	["text"] = 		"* If you only knew the power of the darkside*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1441,7 +1441,7 @@ LeeroyHillCatsPower_data["darkpower"] = {
 	["file"] = dir.."darkpower.mp3",
 };
 
-LeeroyHillCatsPower_data["deathwarrant"] = {
+KekwSoundBoard_data["deathwarrant"] = {
 	["text"] = 		"* Who the f**k said that*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1449,7 +1449,7 @@ LeeroyHillCatsPower_data["deathwarrant"] = {
 	["file"] = dir.."deathwarrant.mp3",
 };
 
-LeeroyHillCatsPower_data["eat"] = {
+KekwSoundBoard_data["eat"] = {
 	["text"] = 		"* Puts he food in his mouth. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1457,7 +1457,7 @@ LeeroyHillCatsPower_data["eat"] = {
 	["file"] = dir.."eat.mp3",
 };
 
-LeeroyHillCatsPower_data["haha"] = {
+KekwSoundBoard_data["haha"] = {
 	["text"] = 		"* Hahahaha SHUT UP*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1465,7 +1465,7 @@ LeeroyHillCatsPower_data["haha"] = {
 	["file"] = dir.."haha.mp3",
 };
 
-LeeroyHillCatsPower_data["missionimp"] = {
+KekwSoundBoard_data["missionimp"] = {
 	["text"] = 		"* Goes into stealth mode*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1473,14 +1473,14 @@ LeeroyHillCatsPower_data["missionimp"] = {
 	["file"] = dir.."missionimp.mp3",
 };
 
-LeeroyHillCatsPower_data["mining"] = {
+KekwSoundBoard_data["mining"] = {
 	["text"] = 		"* Day is never finished. Masters got me working. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["emote"] = "",
 	["file"] = dir.."mining.mp3",
 };
-LeeroyHillCatsPower_data["df1"] = {
+KekwSoundBoard_data["df1"] = {
 	["text"] = 		"* DRAGONFORCE! *",
 	["AllianceEnemyText"] = 	"no'bu ag grom No'ku Zaga",
 	["HordeEnemyText"] = 		"nagan an vrum Barad Lars",
@@ -1489,7 +1489,7 @@ LeeroyHillCatsPower_data["df1"] = {
 	["file"] = dir.."df1",
 };
 
-LeeroyHillCatsPower_data["epic"] = {
+KekwSoundBoard_data["epic"] = {
 	["text"] = 		"* EPIC! *",
 	["AllianceEnemyText"] = 	"Farlandowar RU",
 	["HordeEnemyText"] = 		"zug'ama MU",
@@ -1497,7 +1497,7 @@ LeeroyHillCatsPower_data["epic"] = {
 	["file"] = dir.."epic",
 };
 
-LeeroyHillCatsPower_data["goodtime"] = {
+KekwSoundBoard_data["goodtime"] = {
 	["text"] = 		"* Havin' a Good Time! *",
 	["AllianceEnemyText"] = 	"SE RAS MAJIS VA REGENTHOR",
 	["HordeEnemyText"] = 		"KO MOG REGAS GI GESH'NUKA",
@@ -1506,7 +1506,7 @@ LeeroyHillCatsPower_data["goodtime"] = {
 	["file"] = dir.."goodtime",
 };
 
-LeeroyHillCatsPower_data["lonely"] = {
+KekwSoundBoard_data["lonely"] = {
 	["text"] = 		"* No one loves me... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1515,7 +1515,7 @@ LeeroyHillCatsPower_data["lonely"] = {
 	["file"] = dir.."lonely",
 };
 
-LeeroyHillCatsPower_data["facemelter"] = {
+KekwSoundBoard_data["facemelter"] = {
 	["text"] = 		"* Face MELTER! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1524,7 +1524,7 @@ LeeroyHillCatsPower_data["facemelter"] = {
 	["file"] = dir.."facemelter",
 };
 
-LeeroyHillCatsPower_data["pokemon"] = {
+KekwSoundBoard_data["pokemon"] = {
 	["text"] = 		"* Gotta Catch'em All! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1533,7 +1533,7 @@ LeeroyHillCatsPower_data["pokemon"] = {
 	["file"] = dir.."Pokemon",
 };
 
-LeeroyHillCatsPower_data["tfu"] = {
+KekwSoundBoard_data["tfu"] = {
 	["text"] = 		"* Druids in Disguise!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1542,7 +1542,7 @@ LeeroyHillCatsPower_data["tfu"] = {
 };
 
 
-LeeroyHillCatsPower_data["nopass"] = {
+KekwSoundBoard_data["nopass"] = {
 	["text"] = 		"* YOU SHALL NOT PASS!!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1551,7 +1551,7 @@ LeeroyHillCatsPower_data["nopass"] = {
 	["file"] = dir.."youshallnotpass",
 };
 
-LeeroyHillCatsPower_data["lotion"] = {
+KekwSoundBoard_data["lotion"] = {
 	["text"] = 		"* It rubs the lotion on it's skin...*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1559,7 +1559,7 @@ LeeroyHillCatsPower_data["lotion"] = {
 	["file"] = dir.."lotion",
 };
 
-LeeroyHillCatsPower_data["thebest"] = {
+KekwSoundBoard_data["thebest"] = {
 	["text"] = 		"* YOURE THE BEST! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1568,7 +1568,7 @@ LeeroyHillCatsPower_data["thebest"] = {
 	["file"] = dir.."thebest",
 };
 
-LeeroyHillCatsPower_data["pushit"] = {
+KekwSoundBoard_data["pushit"] = {
 	["text"] = 		"* Push it to the limit! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1576,7 +1576,7 @@ LeeroyHillCatsPower_data["pushit"] = {
 	["file"] = dir.."pushit",
 };
 
-LeeroyHillCatsPower_data["goodisdumb"] = {
+KekwSoundBoard_data["goodisdumb"] = {
 	["text"] = 		"* Good is Dumb.*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1585,7 +1585,7 @@ LeeroyHillCatsPower_data["goodisdumb"] = {
 	["file"] = dir.."goodisdumb",
 };
 
-LeeroyHillCatsPower_data["mylife"] = {
+KekwSoundBoard_data["mylife"] = {
 	["text"] = 		"* FOR AUIR!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1594,7 +1594,7 @@ LeeroyHillCatsPower_data["mylife"] = {
 	["file"] = dir.."mylife",
 };
 
-LeeroyHillCatsPower_data["stride"] = {
+KekwSoundBoard_data["stride"] = {
 	["text"] = 		"* Nothin' Gonna Break My Stride.*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1602,7 +1602,7 @@ LeeroyHillCatsPower_data["stride"] = {
 	["file"] = dir.."stride",
 };
 
-LeeroyHillCatsPower_data["internet"] = {
+KekwSoundBoard_data["internet"] = {
 	["text"] = 		"* ITS NOT A BIG TRUCK!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1610,7 +1610,7 @@ LeeroyHillCatsPower_data["internet"] = {
 	["file"] = dir.."internet",
 };
 
-LeeroyHillCatsPower_data["murder"] = {
+KekwSoundBoard_data["murder"] = {
 	["text"] = 		"* NO MERCY.*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1619,7 +1619,7 @@ LeeroyHillCatsPower_data["murder"] = {
 	["file"] = dir.."murder",
 };
 
-LeeroyHillCatsPower_data["byebye"] = {
+KekwSoundBoard_data["byebye"] = {
 	["text"] = 		"* Goodbye Friend!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1628,7 +1628,7 @@ LeeroyHillCatsPower_data["byebye"] = {
 	["file"] = dir.."byebye",
 };
 
-LeeroyHillCatsPower_data["sparta1"] = {
+KekwSoundBoard_data["sparta1"] = {
 	["text"] = 		"* THIS IS WHERE WE HOLD THEM!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1637,7 +1637,7 @@ LeeroyHillCatsPower_data["sparta1"] = {
 	["file"] = dir.."sparta1",
 };
 
-LeeroyHillCatsPower_data["sparta2"] = {
+KekwSoundBoard_data["sparta2"] = {
 	["text"] = 		"* PREPARE FOR GLORY!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1646,7 +1646,7 @@ LeeroyHillCatsPower_data["sparta2"] = {
 	["file"] = dir.."sparta2",
 };
 
-LeeroyHillCatsPower_data["madness"] = {
+KekwSoundBoard_data["madness"] = {
 	["text"] = 		"* THIS IS SPARTAAA!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1655,7 +1655,7 @@ LeeroyHillCatsPower_data["madness"] = {
 	["file"] = dir.."madness",
 };
 
-LeeroyHillCatsPower_data["hell"] = {
+KekwSoundBoard_data["hell"] = {
 	["text"] = 		"* TONIGHT WE DINE IN HELL!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1664,7 +1664,7 @@ LeeroyHillCatsPower_data["hell"] = {
 	["file"] = dir.."hell",
 };
 
-LeeroyHillCatsPower_data["9000"] = {
+KekwSoundBoard_data["9000"] = {
 	["text"] = 		"* ITS OVER 9000!!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1673,7 +1673,7 @@ LeeroyHillCatsPower_data["9000"] = {
 	["file"] = dir.."9000",
 };
 
-LeeroyHillCatsPower_data["rockso"] = {
+KekwSoundBoard_data["rockso"] = {
 	["text"] = 		"* THE ROCK AND ROLL CLOOOOWN!*",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1681,7 +1681,7 @@ LeeroyHillCatsPower_data["rockso"] = {
 	["emote"] = "cheer",
 	["file"] = dir.."rockso",
 };
-LeeroyHillCatsPower_data["68Correct"] = {
+KekwSoundBoard_data["68Correct"] = {
 	["text"] = 		"* what are the odds? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1689,7 +1689,7 @@ LeeroyHillCatsPower_data["68Correct"] = {
 	["file"] = dir.."6871.mp3",
 };
 
-LeeroyHillCatsPower_data["annoying"] = {
+KekwSoundBoard_data["annoying"] = {
 	["text"] = 		"* wanna hear the most annoying noise in the world? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1698,7 +1698,7 @@ LeeroyHillCatsPower_data["annoying"] = {
 	["file"] = dir.."ahhhh.mp3",
 };
 
-LeeroyHillCatsPower_data["alrighty"] = {
+KekwSoundBoard_data["alrighty"] = {
 	["text"] = 		"* ALRIGHTY THEN! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1706,7 +1706,7 @@ LeeroyHillCatsPower_data["alrighty"] = {
 	["file"] = dir.."alrighthen.mp3",
 };
 
-LeeroyHillCatsPower_data["offer"] = {
+KekwSoundBoard_data["offer"] = {
 	["text"] = 		"* I'm gonna make you an offer you can't refuse. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1715,7 +1715,7 @@ LeeroyHillCatsPower_data["offer"] = {
 	["file"] = dir.."anoffer.mp3",
 };
 
-LeeroyHillCatsPower_data["rsry"] = {
+KekwSoundBoard_data["rsry"] = {
 	["text"] = 		"* I'm really really sorry! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1723,7 +1723,7 @@ LeeroyHillCatsPower_data["rsry"] = {
 	["file"] = dir.."apology2.mp3",
 };
 
-LeeroyHillCatsPower_data["ibb"] = {
+KekwSoundBoard_data["ibb"] = {
 	["text"] = 		"* I'll be back! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1732,7 +1732,7 @@ LeeroyHillCatsPower_data["ibb"] = {
 	["file"] = dir.."arnie.mp3",
 };
 
-LeeroyHillCatsPower_data["king"] = {
+KekwSoundBoard_data["king"] = {
 	["text"] = 		"* I am the king! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1741,7 +1741,7 @@ LeeroyHillCatsPower_data["king"] = {
 	["file"] = dir.."belikeyou.mp3",
 };
 
-LeeroyHillCatsPower_data["bing"] = {
+KekwSoundBoard_data["bing"] = {
 	["text"] = 		"* Bing! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1749,7 +1749,7 @@ LeeroyHillCatsPower_data["bing"] = {
 	["file"] = dir.."bing.mp3",
 };
 
-LeeroyHillCatsPower_data["bond"] = {
+KekwSoundBoard_data["bond"] = {
 	["text"] = 		"* The name's Bond, James Bond! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1757,7 +1757,7 @@ LeeroyHillCatsPower_data["bond"] = {
 	["file"] = dir.."bond.mp3",
 };
 
-LeeroyHillCatsPower_data["buddy"] = {
+KekwSoundBoard_data["buddy"] = {
 	["text"] = 		"* Look Buddy! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1765,7 +1765,7 @@ LeeroyHillCatsPower_data["buddy"] = {
 	["file"] = dir.."buddy.mp3",
 };
 
-LeeroyHillCatsPower_data["butthead"] = {
+KekwSoundBoard_data["butthead"] = {
 	["text"] = 		"* What you looking at! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1773,7 +1773,7 @@ LeeroyHillCatsPower_data["butthead"] = {
 	["file"] = dir.."butthead.mp3",
 };
 
-LeeroyHillCatsPower_data["cbye"] = {
+KekwSoundBoard_data["cbye"] = {
 	["text"] = 		"* Kiss my butt goodbye! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1781,7 +1781,7 @@ LeeroyHillCatsPower_data["cbye"] = {
 	["file"] = dir.."byebye.mp3",
 };
 
-LeeroyHillCatsPower_data["atleast"] = {
+KekwSoundBoard_data["atleast"] = {
 	["text"] = 		"* At least I have chicken - LEEROY! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1789,7 +1789,7 @@ LeeroyHillCatsPower_data["atleast"] = {
 	["file"] = dir.."chicken.mp3",
 };
 
-LeeroyHillCatsPower_data["comply"] = {
+KekwSoundBoard_data["comply"] = {
 	["text"] = 		"* YOU HAVE 20 SECONDS TO COMPLY! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1797,7 +1797,7 @@ LeeroyHillCatsPower_data["comply"] = {
 	["file"] = dir.."comply.mp3",
 };
 
-LeeroyHillCatsPower_data["devoted"] = {
+KekwSoundBoard_data["devoted"] = {
 	["text"] = 		"* I'm hopelessly devoted to you! <vomit> *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1805,7 +1805,7 @@ LeeroyHillCatsPower_data["devoted"] = {
 	["file"] = dir.."devoted.mp3",
 };
 
-LeeroyHillCatsPower_data["angry"] = {
+KekwSoundBoard_data["angry"] = {
 	["text"] = 		"* DONT MAKE ME ANGRY! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1813,7 +1813,7 @@ LeeroyHillCatsPower_data["angry"] = {
 	["file"] = dir.."dontmake.mp3",
 };
 
-LeeroyHillCatsPower_data["eeww"] = {
+KekwSoundBoard_data["eeww"] = {
 	["text"] = 		"* EEEEEEEeeeewwwwwww! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1821,7 +1821,7 @@ LeeroyHillCatsPower_data["eeww"] = {
 	["file"] = dir.."eewww.mp3",
 };
 
-LeeroyHillCatsPower_data["eheh"] = {
+KekwSoundBoard_data["eheh"] = {
 	["text"] = 		"* Eh Eh Eeeeeh! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1829,7 +1829,7 @@ LeeroyHillCatsPower_data["eheh"] = {
 	["file"] = dir.."eheheeh.mp3",
 };
 
-LeeroyHillCatsPower_data["elol"] = {
+KekwSoundBoard_data["elol"] = {
 	["text"] = 		"* Mwahahaha! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1837,7 +1837,7 @@ LeeroyHillCatsPower_data["elol"] = {
 	["file"] = dir.."evillaugh.mp3",
 };
 
-LeeroyHillCatsPower_data["comfail"] = {
+KekwSoundBoard_data["comfail"] = {
 	["text"] = 		"* We have a failure to communicate! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1845,7 +1845,7 @@ LeeroyHillCatsPower_data["comfail"] = {
 	["file"] = dir.."failuretocomm.mp3",
 };
 
-LeeroyHillCatsPower_data["feelgood"] = {
+KekwSoundBoard_data["feelgood"] = {
 	["text"] = 		"* I FEEL GOOD! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1854,7 +1854,7 @@ LeeroyHillCatsPower_data["feelgood"] = {
 	["file"] = dir.."feelgood.mp3",
 };
 
-LeeroyHillCatsPower_data["feellucky"] = {
+KekwSoundBoard_data["feellucky"] = {
 	["text"] = 		"* You gotta ask yourself, do you feel lucky? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1863,7 +1863,7 @@ LeeroyHillCatsPower_data["feellucky"] = {
 	["file"] = dir.."feellucky.mp3",
 };
 
-LeeroyHillCatsPower_data["finest"] = {
+KekwSoundBoard_data["finest"] = {
 	["text"] = 		"* This will be our finest hour! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1871,7 +1871,7 @@ LeeroyHillCatsPower_data["finest"] = {
 	["file"] = dir.."finesthour.mp3",
 };
 
-LeeroyHillCatsPower_data["friendship"] = {
+KekwSoundBoard_data["friendship"] = {
 	["text"] = 		"* This is the beginnning of a beautiful friendship! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1879,7 +1879,7 @@ LeeroyHillCatsPower_data["friendship"] = {
 	["file"] = dir.."friendship.mp3",
 };
 
-LeeroyHillCatsPower_data["gdamn"] = {
+KekwSoundBoard_data["gdamn"] = {
 	["text"] = 		"* G'damnit leeroy! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1887,7 +1887,7 @@ LeeroyHillCatsPower_data["gdamn"] = {
 	["file"] = dir.."gdleeroy.mp3",
 };
 
-LeeroyHillCatsPower_data["gifted"] = {
+KekwSoundBoard_data["gifted"] = {
 	["text"] = 		"* You are a god damn genius!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1895,7 +1895,7 @@ LeeroyHillCatsPower_data["gifted"] = {
 	["file"] = dir.."gifted.mp3",
 };
 
-LeeroyHillCatsPower_data["chatup"] = {
+KekwSoundBoard_data["chatup"] = {
 	["text"] = 		"* Of all the gin joints, in all the world... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1903,7 +1903,7 @@ LeeroyHillCatsPower_data["chatup"] = {
 	["file"] = dir.."ginjoint.mp3",
 };
 
-LeeroyHillCatsPower_data["hamster"] = {
+KekwSoundBoard_data["hamster"] = {
 	["text"] = 		"* You mother was a hamster! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1911,7 +1911,7 @@ LeeroyHillCatsPower_data["hamster"] = {
 	["file"] = dir.."hamster.mp3",
 };
 
-LeeroyHillCatsPower_data["truth"] = {
+KekwSoundBoard_data["truth"] = {
 	["text"] = 		"* YOU CANT HANDLE THE TRUTH! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1919,7 +1919,7 @@ LeeroyHillCatsPower_data["truth"] = {
 	["file"] = dir.."handletruth.mp3",
 };
 
-LeeroyHillCatsPower_data["hasta"] = {
+KekwSoundBoard_data["hasta"] = {
 	["text"] = 		"* Hasta la vista, baby! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1927,7 +1927,7 @@ LeeroyHillCatsPower_data["hasta"] = {
 	["file"] = dir.."hastababy.mp3",
 };
 
-LeeroyHillCatsPower_data["hotpussy"] = {
+KekwSoundBoard_data["hotpussy"] = {
 	["text"] = 		"* Here kitty kitty!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1935,7 +1935,7 @@ LeeroyHillCatsPower_data["hotpussy"] = {
 	["file"] = dir.."hotpussy.mp3",
 };
 
-LeeroyHillCatsPower_data["houston"] = {
+KekwSoundBoard_data["houston"] = {
 	["text"] = 		"* Houston we have a problem! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1943,7 +1943,7 @@ LeeroyHillCatsPower_data["houston"] = {
 	["file"] = dir.."houstonproblem.mp3",
 };
 
-LeeroyHillCatsPower_data["lady"] = {
+KekwSoundBoard_data["lady"] = {
 	["text"] = 		"* I am a lady! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1951,7 +1951,7 @@ LeeroyHillCatsPower_data["lady"] = {
 	["file"] = dir.."iamlady.mp3",
 };
 
-LeeroyHillCatsPower_data["nofault"] = {
+KekwSoundBoard_data["nofault"] = {
 	["text"] = 		"* LEEROY! - It's not my fault *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1959,7 +1959,7 @@ LeeroyHillCatsPower_data["nofault"] = {
 	["file"] = dir.."innocent.mp3",
 };
 
-LeeroyHillCatsPower_data["gay"] = {
+KekwSoundBoard_data["gay"] = {
 	["text"] = 		"* I just went gay! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1967,7 +1967,7 @@ LeeroyHillCatsPower_data["gay"] = {
 	["file"] = dir.."justwentgay.mp3",
 };
 
-LeeroyHillCatsPower_data["lookin"] = {
+KekwSoundBoard_data["lookin"] = {
 	["text"] = 		"* Here's lookin at you kid! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1975,7 +1975,7 @@ LeeroyHillCatsPower_data["lookin"] = {
 	["file"] = dir.."lookin2.mp3",
 };
 
-LeeroyHillCatsPower_data["loser"] = {
+KekwSoundBoard_data["loser"] = {
 	["text"] = 		"* LOL YOU LOSER! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1983,7 +1983,7 @@ LeeroyHillCatsPower_data["loser"] = {
 	["file"] = dir.."loser5.mp3",
 };
 
-LeeroyHillCatsPower_data["makeday"] = {
+KekwSoundBoard_data["makeday"] = {
 	["text"] = 		"* Go ahead! Make my day! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1991,7 +1991,7 @@ LeeroyHillCatsPower_data["makeday"] = {
 	["file"] = dir.."makemyday.mp3",
 };
 
-LeeroyHillCatsPower_data["mission"] = {
+KekwSoundBoard_data["mission"] = {
 	["text"] = 		"* We're on a mission from God! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -1999,7 +1999,7 @@ LeeroyHillCatsPower_data["mission"] = {
 	["file"] = dir.."mission.mp3",
 };
 
-LeeroyHillCatsPower_data["mmd"] = {
+KekwSoundBoard_data["mmd"] = {
 	["text"] = 		"* Go ahaed! Make my day! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2007,7 +2007,7 @@ LeeroyHillCatsPower_data["mmd"] = {
 	["file"] = dir.."makeday.mp3",
 };
 
-LeeroyHillCatsPower_data["boyfriend"] = {
+KekwSoundBoard_data["boyfriend"] = {
 	["text"] = 		"* Can't I just have a normal boyfriend? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2015,7 +2015,7 @@ LeeroyHillCatsPower_data["boyfriend"] = {
 	["file"] = dir.."normalboyfriend.mp3",
 };
 
-LeeroyHillCatsPower_data["og"] = {
+KekwSoundBoard_data["og"] = {
 	["text"] = 		"* I AM THE ONLY GAY IN THE VILLAGE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2023,7 +2023,7 @@ LeeroyHillCatsPower_data["og"] = {
 	["file"] = dir.."og.mp3",
 };
 
-LeeroyHillCatsPower_data["ohyeah"] = {
+KekwSoundBoard_data["ohyeah"] = {
 	["text"] = 		"* OH YEAH! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2032,7 +2032,7 @@ LeeroyHillCatsPower_data["ohyeah"] = {
 	["file"] = dir.."ohyeah.mp3",
 };
 
-LeeroyHillCatsPower_data["askme"] = {
+KekwSoundBoard_data["askme"] = {
 	["text"] = 		"* You ask me another question and I'll beat the sh*t out of u. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2041,7 +2041,7 @@ LeeroyHillCatsPower_data["askme"] = {
 	["file"] = dir.."onemorequestion.mp3",
 };
 
-LeeroyHillCatsPower_data["pos"] = {
+KekwSoundBoard_data["pos"] = {
 	["text"] = 		"* That is one BIG pile of sh*t! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2049,7 +2049,7 @@ LeeroyHillCatsPower_data["pos"] = {
 	["file"] = dir.."pileofshit.mp3",
 };
 
-LeeroyHillCatsPower_data["panther"] = {
+KekwSoundBoard_data["panther"] = {
 	["text"] = 		"* Smooth baby! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2058,7 +2058,7 @@ LeeroyHillCatsPower_data["panther"] = {
 	["file"] = dir.."ppanther.mp3",
 };
 
-LeeroyHillCatsPower_data["shag"] = {
+KekwSoundBoard_data["shag"] = {
 	["text"] = 		"* You shag-a-delic baby! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2067,7 +2067,7 @@ LeeroyHillCatsPower_data["shag"] = {
 	["file"] = dir.."shagpwr.mp3",
 };
 
-LeeroyHillCatsPower_data["shrimp"] = {
+KekwSoundBoard_data["shrimp"] = {
 	["text"] = 		"* Let's throw another shrimp on the barbie! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2075,7 +2075,7 @@ LeeroyHillCatsPower_data["shrimp"] = {
 	["file"] = dir.."shrimpbarbie.mp3",
 };
 
-LeeroyHillCatsPower_data["smokin"] = {
+KekwSoundBoard_data["smokin"] = {
 	["text"] = 		"* SMOKIN! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2083,7 +2083,7 @@ LeeroyHillCatsPower_data["smokin"] = {
 	["file"] = dir.."smokin.mp3",
 };
 
-LeeroyHillCatsPower_data["survival"] = {
+KekwSoundBoard_data["survival"] = {
 	["text"] = 		"* I'm getting a 32.33% chance of survival! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2091,7 +2091,7 @@ LeeroyHillCatsPower_data["survival"] = {
 	["file"] = dir.."survival.mp3",
 };
 
-LeeroyHillCatsPower_data["imboss"] = {
+KekwSoundBoard_data["imboss"] = {
 	["text"] = 		"* Throw me a frickin' bone here! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2099,7 +2099,7 @@ LeeroyHillCatsPower_data["imboss"] = {
 	["file"] = dir.."theboss.mp3",
 };
 
-LeeroyHillCatsPower_data["thinking"] = {
+KekwSoundBoard_data["thinking"] = {
 	["text"] = 		"* I'm trying to think, but nothing happens! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2107,7 +2107,7 @@ LeeroyHillCatsPower_data["thinking"] = {
 	["file"] = dir.."thinking.mp3",
 };
 
-LeeroyHillCatsPower_data["tiggers"] = {
+KekwSoundBoard_data["tiggers"] = {
 	["text"] = 		"* I'm the only one! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2116,7 +2116,7 @@ LeeroyHillCatsPower_data["tiggers"] = {
 	["file"] = dir.."tiggers.mp3",
 };
 
-LeeroyHillCatsPower_data["tree"] = {
+KekwSoundBoard_data["tree"] = {
 	["text"] = 		"* Make like a tree...and get outta here! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2124,7 +2124,7 @@ LeeroyHillCatsPower_data["tree"] = {
 	["file"] = dir.."tree.mp3",
 };
 
-LeeroyHillCatsPower_data["insult1"] = {
+KekwSoundBoard_data["insult1"] = {
 	["text"] = 		"* Your head is as empty as a eunoch's underpants! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2132,7 +2132,7 @@ LeeroyHillCatsPower_data["insult1"] = {
 	["file"] = dir.."undrpnts.mp3",
 };
 
-LeeroyHillCatsPower_data["weakestlink"] = {
+KekwSoundBoard_data["weakestlink"] = {
 	["text"] = 		"* You are the weakest link! GOODBYE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2140,7 +2140,7 @@ LeeroyHillCatsPower_data["weakestlink"] = {
 	["file"] = dir.."weakestlink.mp3",
 };
 
-LeeroyHillCatsPower_data["girls"] = {
+KekwSoundBoard_data["girls"] = {
 	["text"] = 		"* Where's the girls at?! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2148,7 +2148,7 @@ LeeroyHillCatsPower_data["girls"] = {
 	["file"] = dir.."whitewomen.mp3",
 };
 
-LeeroyHillCatsPower_data["favour"] = {
+KekwSoundBoard_data["favour"] = {
 	["text"] = 		"* Why don't you do the world a favour! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2156,7 +2156,7 @@ LeeroyHillCatsPower_data["favour"] = {
 	["file"] = dir.."worldfavor.mp3",
 };
 
-LeeroyHillCatsPower_data["yesmom"] = {
+KekwSoundBoard_data["yesmom"] = {
 	["text"] = 		"* Yes Mommy! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2164,7 +2164,7 @@ LeeroyHillCatsPower_data["yesmom"] = {
 	["file"] = dir.."yesmom.mp3",
 };
 
-LeeroyHillCatsPower_data["theforce"] = {
+KekwSoundBoard_data["theforce"] = {
 	["text"] = 		"* The force is with you young skywalker! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2172,7 +2172,7 @@ LeeroyHillCatsPower_data["theforce"] = {
 	["file"] = dir.."yngskwlk.mp3",
 };
 
-LeeroyHillCatsPower_data["father"] = {
+KekwSoundBoard_data["father"] = {
 	["text"] = 		"* I AM YOUR FATHER! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2180,7 +2180,7 @@ LeeroyHillCatsPower_data["father"] = {
 	["file"] = dir.."yourfather.mp3",
 };
 
-LeeroyHillCatsPower_data["boogie"] = {
+KekwSoundBoard_data["boogie"] = {
 	["text"] = 		"* Get down, get down! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2189,7 +2189,7 @@ LeeroyHillCatsPower_data["boogie"] = {
 	["file"] = dir.."Boogie.mp3",
 };
 
-LeeroyHillCatsPower_data["gtfo"] = {
+KekwSoundBoard_data["gtfo"] = {
 	["text"] = 		"* Get the out ma house B! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2198,7 +2198,7 @@ LeeroyHillCatsPower_data["gtfo"] = {
 	["file"] = dir.."GTFO.mp3",
 };
 
-LeeroyHillCatsPower_data["lollipop"] = {
+KekwSoundBoard_data["lollipop"] = {
 	["text"] = 		"* Sunshine and lollipops!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2207,7 +2207,7 @@ LeeroyHillCatsPower_data["lollipop"] = {
 	["file"] = dir.."Lollipops.mp3",
 };
 
-LeeroyHillCatsPower_data["makelove"] = {
+KekwSoundBoard_data["makelove"] = {
 	["text"] = 		"* I gonna make love to you woman!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2216,7 +2216,7 @@ LeeroyHillCatsPower_data["makelove"] = {
 	["file"] = dir.."makelove.mp3",
 };
 
-LeeroyHillCatsPower_data["iamtheone"] = {
+KekwSoundBoard_data["iamtheone"] = {
 	["text"] = 		"* I AM THE ONE AND ONLY! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2225,7 +2225,7 @@ LeeroyHillCatsPower_data["iamtheone"] = {
 	["file"] = dir.."OneOnly.mp3",
 };
 
-LeeroyHillCatsPower_data["bikini"] = {
+KekwSoundBoard_data["bikini"] = {
 	["text"] = 		"* Check my bikini! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2234,7 +2234,7 @@ LeeroyHillCatsPower_data["bikini"] = {
 	["file"] = dir.."itsybitsy.mp3",
 };
 
-LeeroyHillCatsPower_data["startrek"] = {
+KekwSoundBoard_data["startrek"] = {
 	["text"] = 		"* Star Trekking accross the universe! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2243,7 +2243,7 @@ LeeroyHillCatsPower_data["startrek"] = {
 	["file"] = dir.."StarTrek.FUCKYOUSEAN",
 };
 
-LeeroyHillCatsPower_data["stayalive"] = {
+KekwSoundBoard_data["stayalive"] = {
 	["text"] = 		"* Ah, ah ah ah stayin alive!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2252,7 +2252,7 @@ LeeroyHillCatsPower_data["stayalive"] = {
 	["file"] = dir.."StayAlive.mp3",
 };
 
-LeeroyHillCatsPower_data["wurzel"] = {
+KekwSoundBoard_data["wurzel"] = {
 	["text"] = 		"* I got a brand new combine harvester! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2260,7 +2260,7 @@ LeeroyHillCatsPower_data["wurzel"] = {
 	["emote"] = "dance",
 	["file"] = dir.."Wurzel.mp3",
 };
-LeeroyHillCatsPower_data["zug"] = {
+KekwSoundBoard_data["zug"] = {
 	["text"] = 		"* I just want to say.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2268,7 +2268,7 @@ LeeroyHillCatsPower_data["zug"] = {
 	["file"] = dir.."mummyzug256.mp3",
 };
 
-LeeroyHillCatsPower_data["getcha"] = {
+KekwSoundBoard_data["getcha"] = {
 	["text"] = 		"* YOU AINT GETTIN S...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2276,7 +2276,7 @@ LeeroyHillCatsPower_data["getcha"] = {
 	["file"] = dir.."getcha.mp3",
 };
 
-LeeroyHillCatsPower_data["dots"] = {
+KekwSoundBoard_data["dots"] = {
 	["text"] = 		"* MORE DOTS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2284,7 +2284,7 @@ LeeroyHillCatsPower_data["dots"] = {
 	["file"] = dir.."moredots.mp3",
 };
 
-LeeroyHillCatsPower_data["hitit"] = {
+KekwSoundBoard_data["hitit"] = {
 	["text"] = 		"* Hit it like ya mean it! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2292,7 +2292,7 @@ LeeroyHillCatsPower_data["hitit"] = {
 	["file"] = dir.."hitit.mp3",
 };
 
-LeeroyHillCatsPower_data["dkp"] = {
+KekwSoundBoard_data["dkp"] = {
 	["text"] = 		"* 50 DKP MINUS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2301,7 +2301,7 @@ LeeroyHillCatsPower_data["dkp"] = {
 	["file"] = dir.."dkp.mp3",
 };
 
-LeeroyHillCatsPower_data["dots2"] = {
+KekwSoundBoard_data["dots2"] = {
 	["text"] = 		"* Need more DoTs! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2309,7 +2309,7 @@ LeeroyHillCatsPower_data["dots2"] = {
 	["file"] = dir.."moredots2.mp3",
 };
 
-LeeroyHillCatsPower_data["whelps"] = {
+KekwSoundBoard_data["whelps"] = {
 	["text"] = 		"* WHELPS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2317,7 +2317,7 @@ LeeroyHillCatsPower_data["whelps"] = {
 	["file"] = dir.."whelps.mp3",
 };
 
-LeeroyHillCatsPower_data["atkp"] = {
+KekwSoundBoard_data["atkp"] = {
 	["text"] = 		"* 2 F ING AP! *",
 	["alttext"] =		"* 2 FUCKING AP! *",
 	["AllianceEnemyText"] = 	"",
@@ -2326,7 +2326,7 @@ LeeroyHillCatsPower_data["atkp"] = {
 	["file"] = dir.."twofinap.mp3",
 };
 
-LeeroyHillCatsPower_data["beast"] = {
+KekwSoundBoard_data["beast"] = {
 	["text"] = 		"* DO YOU KNOW HOW BEAST...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2335,7 +2335,7 @@ LeeroyHillCatsPower_data["beast"] = {
 	["file"] = dir.."beast.mp3",
 };
 
-LeeroyHillCatsPower_data["cloudsong"] = {
+KekwSoundBoard_data["cloudsong"] = {
 	["text"] = 		"* YOU STOLE MY CLOUDSONG! *",
 	["AllianceEnemyText"] = 	"PUGPSVLHSDLGSDGSD",
 	["HordeEnemyText"] = 		"GHSDGHL'VSHH'NUU",
@@ -2343,7 +2343,7 @@ LeeroyHillCatsPower_data["cloudsong"] = {
 	["emote"] = "threaten",
 	["file"] = dir.."cloudsong.mp3",
 };
-LeeroyHillCatsPower_data["sandlol"] = {
+KekwSoundBoard_data["sandlol"] = {
 	["text"] =		"* SANDLOL! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2351,7 +2351,7 @@ LeeroyHillCatsPower_data["sandlol"] = {
 	["file"] = dir.."jarofdirt.mp3",
 };
 
-LeeroyHillCatsPower_data["repressed"] = {
+KekwSoundBoard_data["repressed"] = {
 	["text"] =		"* HELP HELP I'M BEIN REPRESSED! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2359,7 +2359,7 @@ LeeroyHillCatsPower_data["repressed"] = {
 	["file"] = dir.."repressed.mp3",
 };
 
-LeeroyHillCatsPower_data["napoleon"] = {
+KekwSoundBoard_data["napoleon"] = {
 	["text"] =		"* You know this boogie is for real. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2368,7 +2368,7 @@ LeeroyHillCatsPower_data["napoleon"] = {
 	["file"] = dir.."napoleon.mp3",
 };
 
-LeeroyHillCatsPower_data["tunak"] = {
+KekwSoundBoard_data["tunak"] = {
 	["text"] =		"* Tunak Tunak Tun... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2377,7 +2377,7 @@ LeeroyHillCatsPower_data["tunak"] = {
 	["file"] = dir.."tunaktunak.mp3",
 };
 
-LeeroyHillCatsPower_data["murloc"] = {
+KekwSoundBoard_data["murloc"] = {
 	["text"] = 		"* RLRLRLRLGLRLGLR *",
 	["AllianceEnemyText"] = 	"IOEHIOFHNSLFKN",
 	["HordeEnemyText"] = 		"IGHEINFGDKLVN",
@@ -2385,7 +2385,7 @@ LeeroyHillCatsPower_data["murloc"] = {
 	["file"] = dir.."murloc.mp3",
 };
 
-LeeroyHillCatsPower_data["tehpwnerer"] = {
+KekwSoundBoard_data["tehpwnerer"] = {
 	["text"] = 		"* So this one time.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2395,7 +2395,7 @@ LeeroyHillCatsPower_data["tehpwnerer"] = {
 	["file"] = dir.."shamanrogue.mp3",
 };
 
-LeeroyHillCatsPower_data["mcraiders"] = {
+KekwSoundBoard_data["mcraiders"] = {
 	["text"] = 		"* MC Raiders! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2403,7 +2403,7 @@ LeeroyHillCatsPower_data["mcraiders"] = {
 	["file"] = dir.."mcraiders.mp3",
 };
 
-LeeroyHillCatsPower_data["shadowform"] = {
+KekwSoundBoard_data["shadowform"] = {
 	["text"] = 		"* Is shadowform okay? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2412,7 +2412,7 @@ LeeroyHillCatsPower_data["shadowform"] = {
 	["file"] = dir.."shadowform.mp3",
 };
 
-LeeroyHillCatsPower_data["druidtank"] = {
+KekwSoundBoard_data["druidtank"] = {
 	["text"] = 		"* Why don't we have a druid tank Rag? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2422,7 +2422,7 @@ LeeroyHillCatsPower_data["druidtank"] = {
 	["file"] = dir.."druidtank.mp3",
 };
 
-LeeroyHillCatsPower_data["byh"] = {
+KekwSoundBoard_data["byh"] = {
 	["text"] = 		"* I can be your healer baby! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2430,7 +2430,7 @@ LeeroyHillCatsPower_data["byh"] = {
 	["file"] = dir.."chealers.mp3",
 };
 
-LeeroyHillCatsPower_data["thrall"] = {
+KekwSoundBoard_data["thrall"] = {
 	["text"] = 		"* Club Thrall! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2439,7 +2439,7 @@ LeeroyHillCatsPower_data["thrall"] = {
 	["file"] = dir.."thrall.mp3",
 };
 
-LeeroyHillCatsPower_data["thrall2"] = {
+KekwSoundBoard_data["thrall2"] = {
 	["text"] = 		"* Thralls Ball! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2448,7 +2448,7 @@ LeeroyHillCatsPower_data["thrall2"] = {
 	["file"] = dir.."thrallsball.mp3",
 };
 
-LeeroyHillCatsPower_data["mreh"] = {
+KekwSoundBoard_data["mreh"] = {
 	["text"] = 		"* MREH *",
 	["AllianceEnemyText"] = 	"KGHPEHRFSDK",
 	["HordeEnemyText"] = 		"IGJEFIHFLDXB",
@@ -2456,7 +2456,7 @@ LeeroyHillCatsPower_data["mreh"] = {
 	["file"] = dir.."mreh.mp3",
 };
 
-LeeroyHillCatsPower_data["whine"] = {
+KekwSoundBoard_data["whine"] = {
 	["text"] = 		"* STOP WHINING! *",
 	["AllianceEnemyText"] = 	"WKAHOLGHDLSGFL",
 	["HordeEnemyText"] = 		"UPORUGPORGLFHGSB",
@@ -2464,7 +2464,7 @@ LeeroyHillCatsPower_data["whine"] = {
 	["file"] = dir.."whine.mp3",
 };
 	
-LeeroyHillCatsPower_data["rush"] = {
+KekwSoundBoard_data["rush"] = {
 	["text"] = 		"* Charge! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2473,7 +2473,7 @@ LeeroyHillCatsPower_data["rush"] = {
 	["file"] = dir.."CHARGE.mp3",
 };
 	
-LeeroyHillCatsPower_data["gover"] = {
+KekwSoundBoard_data["gover"] = {
 	["text"] = 		"* Game Over Man! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2482,14 +2482,14 @@ LeeroyHillCatsPower_data["gover"] = {
 	["file"] = dir.."gameover.mp3",
 };
 	
-LeeroyHillCatsPower_data["kame"] = {
+KekwSoundBoard_data["kame"] = {
 	["text"] = 		"* KAMEHAMEHA!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
 	["msg"] = " charges energy into his palms!",
 	["file"] = dir.."kame.mp3",
 };
-LeeroyHillCatsPower_data["juggernaut"] = {
+KekwSoundBoard_data["juggernaut"] = {
 	["text"] = 		"* Don't you know who I am? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2497,7 +2497,7 @@ LeeroyHillCatsPower_data["juggernaut"] = {
 	["file"] = dir.."juggernaut.mp3",
 };
 
-LeeroyHillCatsPower_data["hax"] = {
+KekwSoundBoard_data["hax"] = {
 	["text"] = 		"* WTF UBER HAX!!1 *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2506,7 +2506,7 @@ LeeroyHillCatsPower_data["hax"] = {
 	["file"] = dir.."hax.mp3",
 };
 
-LeeroyHillCatsPower_data["cuppycake"] = {
+KekwSoundBoard_data["cuppycake"] = {
 	["text"] = 		"* You're my cuppycake gumdrop.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2515,7 +2515,7 @@ LeeroyHillCatsPower_data["cuppycake"] = {
 	["file"] = dir.."cuppycake.mp3",
 };
 
-LeeroyHillCatsPower_data["wonderful"] = {
+KekwSoundBoard_data["wonderful"] = {
 	["text"] = 		"* Having a wonderful time! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2524,7 +2524,7 @@ LeeroyHillCatsPower_data["wonderful"] = {
 	["file"] = dir.."wonderful time.mp3",
 };
 
-LeeroyHillCatsPower_data["spinnaz"] = {
+KekwSoundBoard_data["spinnaz"] = {
 	["text"] = 		"* I ride spinnaz... they don't stop... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2532,7 +2532,7 @@ LeeroyHillCatsPower_data["spinnaz"] = {
 	["file"] = dir.."ride spinnaz.mp3",
 };
 
-LeeroyHillCatsPower_data["ytmnd"] = {
+KekwSoundBoard_data["ytmnd"] = {
 	["text"] = 		"* YOU'RE THE MAN NOW, DOG! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2541,7 +2541,7 @@ LeeroyHillCatsPower_data["ytmnd"] = {
 	["file"] = dir.."ytmnd.mp3",
 };
 
-LeeroyHillCatsPower_data["pi"] = {
+KekwSoundBoard_data["pi"] = {
 	["text"] = 		"* 3.141592653589793238.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2549,7 +2549,7 @@ LeeroyHillCatsPower_data["pi"] = {
 	["file"] = dir.."pi.mp3",
 };
 
-LeeroyHillCatsPower_data["ohsnap"] = {
+KekwSoundBoard_data["ohsnap"] = {
 	["text"] = 		"* OH SNAP! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2558,7 +2558,7 @@ LeeroyHillCatsPower_data["ohsnap"] = {
 	["file"] = dir.."ohsnap.mp3",
 };
 
-LeeroyHillCatsPower_data["wookies"] = {
+KekwSoundBoard_data["wookies"] = {
 	["text"] = 		"* SALSA WOOKIES! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2566,7 +2566,7 @@ LeeroyHillCatsPower_data["wookies"] = {
 	["file"] = dir.."o fortuna.mp3",
 };
 
-LeeroyHillCatsPower_data["gonnadie"] = {
+KekwSoundBoard_data["gonnadie"] = {
 	["text"] = 		"* WE ARE GOING TO DIE :( *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2575,7 +2575,7 @@ LeeroyHillCatsPower_data["gonnadie"] = {
 	["file"] = dir.."hulk-sad piano.mp3",
 };
 
-LeeroyHillCatsPower_data["youlose"] = {
+KekwSoundBoard_data["youlose"] = {
 	["text"] = 		"* You LOSE! Good day sir! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2583,7 +2583,7 @@ LeeroyHillCatsPower_data["youlose"] = {
 	["file"] = dir.."you lose.mp3",
 };
 
-LeeroyHillCatsPower_data["pirate"] = {
+KekwSoundBoard_data["pirate"] = {
 	["text"] = 		"* Do what you want 'cuz a pirate is free... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2591,7 +2591,7 @@ LeeroyHillCatsPower_data["pirate"] = {
 	["file"] = dir.."pirate.mp3",
 };
 
-LeeroyHillCatsPower_data["kill"] = {
+KekwSoundBoard_data["kill"] = {
 	["text"] = 		"* I REMEMBER YOU *",
 	["AllianceEnemyText"] = 	"ITSOFHGDBF",
 	["HordeEnemyText"] = 		"JVOPEHICHKL",
@@ -2600,7 +2600,7 @@ LeeroyHillCatsPower_data["kill"] = {
 };
 
 
-LeeroyHillCatsPower_data["fail"] = {
+KekwSoundBoard_data["fail"] = {
 	["text"] = 		"* YOU HAVE FAILED! *",
 	["AllianceEnemyText"] = 	"JOPEGHFND",
 	["HordeEnemyText"] = 		"FJIOEWHFDN",
@@ -2608,7 +2608,7 @@ LeeroyHillCatsPower_data["fail"] = {
 	["file"] = dir.."failed.mp3",
 };
 
-LeeroyHillCatsPower_data["topgun"] = {
+KekwSoundBoard_data["topgun"] = {
 	["text"] = 		"* HIGHWAY TO THE DANGER ZONE!! *",
 	["AllianceEnemyText"] = 	"GFIGFSDGFJSDKGJKFGSV",
 	["HordeEnemyText"] = 		"RYEWITYISBVSDGJHSDFK",
@@ -2617,7 +2617,7 @@ LeeroyHillCatsPower_data["topgun"] = {
 	["file"] = dir.."topgun.mp3",
 };
 
-LeeroyHillCatsPower_data["tralala"] = {
+KekwSoundBoard_data["tralala"] = {
 	["text"] = 		"* Ooh, you touch my tralala...! *",
 	["AllianceEnemyText"] = 	"GWARSHJHOTIH",
 	["HordeEnemyText"] = 		"TYIHFDGFGDNTHUCSHFS",
@@ -2626,7 +2626,7 @@ LeeroyHillCatsPower_data["tralala"] = {
 	["file"] = dir.."tralala.mp3",
 };
 
-LeeroyHillCatsPower_data["hassan"] = {
+KekwSoundBoard_data["hassan"] = {
 	["text"] = 		"* AYAYLELEAYALELEALA! *",
 	["AllianceEnemyText"] = 	"HHOTHEKLGYIOTHELGL",
 	["HordeEnemyText"] = 		"YGYEDLGHLNDFKJYFLLDGHCCKS",
@@ -2634,7 +2634,7 @@ LeeroyHillCatsPower_data["hassan"] = {
 	["file"] = dir.."hassan.mp3",
 };
 
-LeeroyHillCatsPower_data["barrel"] = {
+KekwSoundBoard_data["barrel"] = {
 	["text"] = 		"* DO A BARREL ROLL! *",
 	["AllianceEnemyText"] = 	"LGRYIGHDFLH",
 	["HordeEnemyText"] = 		"MVGYODHFVLSDGAAA",
@@ -2642,7 +2642,7 @@ LeeroyHillCatsPower_data["barrel"] = {
 	["file"] = dir.."barrelroll.mp3",
 };
 
-LeeroyHillCatsPower_data["katamari"] = {
+KekwSoundBoard_data["katamari"] = {
 	["text"] = 		"* NAA NANANANANA KATAMARI DAMACY! *",
 	["AllianceEnemyText"] = 	"NUUU'VOOIHKLFHSL",
 	["HordeEnemyText"] = 		"LVHSKLVSL'PIODS'VSHL",
@@ -2651,7 +2651,7 @@ LeeroyHillCatsPower_data["katamari"] = {
 	["file"] = dir.."katamari.mp3",
 };
 
-LeeroyHillCatsPower_data["noo"] = {
+KekwSoundBoard_data["noo"] = {
 	["text"] = 		"* NOOOOOOOOO! *",
 	["AllianceEnemyText"] = 	"KAAAAAAAAA!",
 	["HordeEnemyText"] = 		"MQQQQQQQQQ!",
@@ -2659,7 +2659,7 @@ LeeroyHillCatsPower_data["noo"] = {
 	["file"] = dir.."noooo.mp3",
 };
 
-LeeroyHillCatsPower_data["stole"] = {
+KekwSoundBoard_data["stole"] = {
 	["text"] = 		"* STOLE MY FLAG! *",
 	["AllianceEnemyText"] = 	"HFLSD'GHSD'FHSLF!",
 	["HordeEnemyText"] = 		"FSDH'SHF'HHS!",
@@ -2667,7 +2667,7 @@ LeeroyHillCatsPower_data["stole"] = {
 	["file"] = dir.."stolemybike.mp3",
 };
 
-LeeroyHillCatsPower_data["whatislove"] = {
+KekwSoundBoard_data["whatislove"] = {
 	["text"] = 		"* WHAT IS LOVE? *",
 	["AllianceEnemyText"] = 	"HHFGSLBN'IOGUS'PLIN?",
 	["HordeEnemyText"] = 		"ZHGLHS'GO'OWIH?",
@@ -2676,7 +2676,7 @@ LeeroyHillCatsPower_data["whatislove"] = {
 	["file"] = dir.."whatislove.mp3",
 };
 
-LeeroyHillCatsPower_data["moskau"] = {
+KekwSoundBoard_data["moskau"] = {
 	["text"] = 		"* MOSKAU! MOSKAU! *",
 	["AllianceEnemyText"] = 	"HSVZFGSS'HFLSDLF!",
 	["HordeEnemyText"] = 		"GSGHSLSH'YEROWYS!",
@@ -2685,7 +2685,7 @@ LeeroyHillCatsPower_data["moskau"] = {
 	["file"] = dir.."moskau.mp3",
 };
 
-LeeroyHillCatsPower_data["rit9"] = {
+KekwSoundBoard_data["rit9"] = {
 	["text"] = 		"* Running in the 90's! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2694,7 +2694,7 @@ LeeroyHillCatsPower_data["rit9"] = {
 	["file"] = dir.."rit9.mp3",
 };
 
-LeeroyHillCatsPower_data["crawl"] = {
+KekwSoundBoard_data["crawl"] = {
 	["text"] = 		"* CRAWLING IN MY SKIN! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2704,7 +2704,7 @@ LeeroyHillCatsPower_data["crawl"] = {
 	["file"] = dir.."crawl.mp3",
 };
 
-LeeroyHillCatsPower_data["gog"] = {
+KekwSoundBoard_data["gog"] = {
 	["text"] = 		"* The goggles! They do nothing! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2712,7 +2712,7 @@ LeeroyHillCatsPower_data["gog"] = {
 	["file"] = dir.."thegoggles.mp3",
 };
 
-LeeroyHillCatsPower_data["cotc"] = {
+KekwSoundBoard_data["cotc"] = {
 	["text"] = 		"* CORN ON THE COB! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2720,7 +2720,7 @@ LeeroyHillCatsPower_data["cotc"] = {
 	["file"] = dir.."cotc.mp3",
 };
 
-LeeroyHillCatsPower_data["leek"] = {
+KekwSoundBoard_data["leek"] = {
 	["text"] = 		"* Yaa tsi tsup ari.. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2728,7 +2728,7 @@ LeeroyHillCatsPower_data["leek"] = {
 	["file"] = dir.."leek.mp3",
 };
 
-LeeroyHillCatsPower_data["milks"] = {
+KekwSoundBoard_data["milks"] = {
 	["text"] = 		"* Milkshake! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2736,7 +2736,7 @@ LeeroyHillCatsPower_data["milks"] = {
 	["file"] = dir.."milkshake.mp3",
 };
 
-LeeroyHillCatsPower_data["pill"] = {
+KekwSoundBoard_data["pill"] = {
 	["text"] = 		"* CRAZY PILLS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2745,7 +2745,7 @@ LeeroyHillCatsPower_data["pill"] = {
 	["file"] = dir.."crazy.mp3",
 };
 
-LeeroyHillCatsPower_data["bde"] = {
+KekwSoundBoard_data["bde"] = {
 	["text"] = 		"* Best day ever! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2754,7 +2754,7 @@ LeeroyHillCatsPower_data["bde"] = {
 	["file"] = dir.."bde.mp3",
 };
 
-LeeroyHillCatsPower_data["ual"] = {
+KekwSoundBoard_data["ual"] = {
 	["text"] = 		"* Ualuealue! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2763,7 +2763,7 @@ LeeroyHillCatsPower_data["ual"] = {
 	["file"] = dir.."ualuealue.mp3",
 };
 
-LeeroyHillCatsPower_data["epic"] = {
+KekwSoundBoard_data["epic"] = {
 	["text"] =		"* EPIC WoW Maneuver! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2771,7 +2771,7 @@ LeeroyHillCatsPower_data["epic"] = {
 	["file"] = dir.."ghost love score.mp3",
 };
 
-LeeroyHillCatsPower_data["nedm"] = {
+KekwSoundBoard_data["nedm"] = {
 	["text"] =		"* N E D M *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2780,7 +2780,7 @@ LeeroyHillCatsPower_data["nedm"] = {
 	["file"] = dir.."nedm.mp3",
 };
 	
-LeeroyHillCatsPower_data["nint64"] = {
+KekwSoundBoard_data["nint64"] = {
 	["text"] =		"* OMG NINTENDO SIXTY-FOUR!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2789,7 +2789,7 @@ LeeroyHillCatsPower_data["nint64"] = {
 	["file"] = dir.."nintendo64.mp3",
 };
 
-LeeroyHillCatsPower_data["demon"] = {
+KekwSoundBoard_data["demon"] = {
 	["text"] =		"* ..is a demon slayer *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2797,7 +2797,7 @@ LeeroyHillCatsPower_data["demon"] = {
 	["file"] = dir.."the mystery song.mp3",
 };
 
-LeeroyHillCatsPower_data["wrong"] = {
+KekwSoundBoard_data["wrong"] = {
 	["text"] =		"* WRONG!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2805,7 +2805,7 @@ LeeroyHillCatsPower_data["wrong"] = {
 	["file"] = dir.."wrong.mp3",
 };
 
-LeeroyHillCatsPower_data["37"] = {
+KekwSoundBoard_data["37"] = {
 	["text"] = 		"* 37... In a Row?! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2814,7 +2814,7 @@ LeeroyHillCatsPower_data["37"] = {
 	["file"] = dir.."37.mp3",
 };
 
-LeeroyHillCatsPower_data["aids"] = {
+KekwSoundBoard_data["aids"] = {
 	["text"] = 		"* Everyone has Aids! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2823,7 +2823,7 @@ LeeroyHillCatsPower_data["aids"] = {
 	["file"] = dir.."aids.mp3",
 };
 
-LeeroyHillCatsPower_data["america"] = {
+KekwSoundBoard_data["america"] = {
 	["text"] = 		"* AMERICA! #$%@ Yeah! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2832,7 +2832,7 @@ LeeroyHillCatsPower_data["america"] = {
 	["file"] = dir.."america.mp3",
 };
 
-LeeroyHillCatsPower_data["army"] = {
+KekwSoundBoard_data["army"] = {
 	["text"] =		"* Clatto... Verata... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2840,7 +2840,7 @@ LeeroyHillCatsPower_data["army"] = {
 	["file"] = dir.."ArmyOfDarkness.mp3",
 };
 
-LeeroyHillCatsPower_data["badger"] = {
+KekwSoundBoard_data["badger"] = {
 	["text"] =		"* Badger Badger Badger... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2849,7 +2849,7 @@ LeeroyHillCatsPower_data["badger"] = {
 	["file"] = dir.."badger.mp3",
 };
 
-LeeroyHillCatsPower_data["bananas"] = {
+KekwSoundBoard_data["bananas"] = {
 	["text"] =		"* B-A-N-A-N-A-S *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2858,7 +2858,7 @@ LeeroyHillCatsPower_data["bananas"] = {
 	["file"] = dir.."bananas.mp3",
 };
 
-LeeroyHillCatsPower_data["billnye"] = {
+KekwSoundBoard_data["billnye"] = {
 	["text"] =		"* Bill Nye the Science Guy! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2866,7 +2866,7 @@ LeeroyHillCatsPower_data["billnye"] = {
 	["file"] = dir.."billnye.mp3",
 };
 
-LeeroyHillCatsPower_data["bulbous"] = {
+KekwSoundBoard_data["bulbous"] = {
 	["text"] =		"* Fire a warning shot! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2875,7 +2875,7 @@ LeeroyHillCatsPower_data["bulbous"] = {
 	["file"] = dir.."bulbousass.mp3",
 };
 
-LeeroyHillCatsPower_data["bullets"] = {
+KekwSoundBoard_data["bullets"] = {
 	["text"] =		"* Bullets!? My only Weakness! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2884,7 +2884,7 @@ LeeroyHillCatsPower_data["bullets"] = {
 	["file"] = dir.."bullets.mp3",
 };
 
-LeeroyHillCatsPower_data["barter"] = {
+KekwSoundBoard_data["barter"] = {
 	["text"] =		"* The Pirate Steve be in no man's debt! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2893,7 +2893,7 @@ LeeroyHillCatsPower_data["barter"] = {
 	["file"] = dir.."burriedtreasure.mp3",
 };
 
-LeeroyHillCatsPower_data["cake"] = {
+KekwSoundBoard_data["cake"] = {
 	["text"] =		"* You gotta do the cookin' by the book! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2902,7 +2902,7 @@ LeeroyHillCatsPower_data["cake"] = {
 	["file"] = dir.."cake.mp3",
 };
 
-LeeroyHillCatsPower_data["candybars"] = {
+KekwSoundBoard_data["candybars"] = {
 	["text"] =		"* CandyBars! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2911,7 +2911,7 @@ LeeroyHillCatsPower_data["candybars"] = {
 	["file"] = dir.."candybars.mp3",
 };
 
-LeeroyHillCatsPower_data["cantdo"] = {
+KekwSoundBoard_data["cantdo"] = {
 	["text"] =		"* I'm sorry. I can't do that Dave. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2919,7 +2919,7 @@ LeeroyHillCatsPower_data["cantdo"] = {
 	["file"] = dir.."cantdo.mp3",
 };
 
-LeeroyHillCatsPower_data["baseketball1"] = {
+KekwSoundBoard_data["baseketball1"] = {
 	["text"] =		"* I'm givin' it all I've got! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2928,7 +2928,7 @@ LeeroyHillCatsPower_data["baseketball1"] = {
 	["file"] = dir.."captain.mp3",
 };
 
-LeeroyHillCatsPower_data["carryon"] = {
+KekwSoundBoard_data["carryon"] = {
 	["text"] =		"* Carry on my wayward son! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2937,7 +2937,7 @@ LeeroyHillCatsPower_data["carryon"] = {
 	["file"] = dir.."carryon.mp3",
 };
 
-LeeroyHillCatsPower_data["chuck"] = {
+KekwSoundBoard_data["chuck"] = {
 	["text"] =		"* #%$@in' Chuck Norris! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2946,7 +2946,7 @@ LeeroyHillCatsPower_data["chuck"] = {
 	["file"] = dir.."chucknorris2.mp3",
 };
 
-LeeroyHillCatsPower_data["dodgeball"] = {
+KekwSoundBoard_data["dodgeball"] = {
 	["text"] =		"* Dodgeball is a sport of violence! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2954,7 +2954,7 @@ LeeroyHillCatsPower_data["dodgeball"] = {
 	["file"] = dir.."dodgeballis.mp3",
 };
 
-LeeroyHillCatsPower_data["indy"] = {
+KekwSoundBoard_data["indy"] = {
 	["text"] =		"* We named the dog Indiana! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2963,7 +2963,7 @@ LeeroyHillCatsPower_data["indy"] = {
 	["file"] = dir.."DogIndiana.mp3",
 };
 
-LeeroyHillCatsPower_data["dude"] = {
+KekwSoundBoard_data["dude"] = {
 	["text"] =		"* I guess you've got a point there... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2972,7 +2972,7 @@ LeeroyHillCatsPower_data["dude"] = {
 	["file"] = dir.."dude.mp3",
 };
 
-LeeroyHillCatsPower_data["excited"] = {
+KekwSoundBoard_data["excited"] = {
 	["text"] =		"* You're Excited!? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2981,7 +2981,7 @@ LeeroyHillCatsPower_data["excited"] = {
 	["file"] = dir.."excited.mp3",
 };
 
-LeeroyHillCatsPower_data["fifteen"] = {
+KekwSoundBoard_data["fifteen"] = {
 	["text"] =		"* You don't know Jungle Love!? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2990,7 +2990,7 @@ LeeroyHillCatsPower_data["fifteen"] = {
 	["file"] = dir.."fifteenbucks.mp3",
 };
 
-LeeroyHillCatsPower_data["goodenough"] = {
+KekwSoundBoard_data["goodenough"] = {
 	["text"] =		"* How ya feelin' there Mac? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -2998,7 +2998,7 @@ LeeroyHillCatsPower_data["goodenough"] = {
 	["file"] = dir.."goodenough.mp3",
 };
 
-LeeroyHillCatsPower_data["googly"] = {
+KekwSoundBoard_data["googly"] = {
 	["text"] =		"* That's great... but who are the Chefs? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3007,7 +3007,7 @@ LeeroyHillCatsPower_data["googly"] = {
 	["file"] = dir.."googly.mp3",
 };
 
-LeeroyHillCatsPower_data["moose"] = {
+KekwSoundBoard_data["moose"] = {
 	["text"] =		"* Just 'cause you're hung like a moose... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3016,7 +3016,7 @@ LeeroyHillCatsPower_data["moose"] = {
 	["file"] = dir.."gottadoporn.mp3",
 };
 
-LeeroyHillCatsPower_data["hollaback"] = {
+KekwSoundBoard_data["hollaback"] = {
 	["text"] =		"* I aint no hollaback girl! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3025,7 +3025,7 @@ LeeroyHillCatsPower_data["hollaback"] = {
 	["file"] = dir.."hollaback.mp3",
 };
 
-LeeroyHillCatsPower_data["huckleberry"] = {
+KekwSoundBoard_data["huckleberry"] = {
 	["text"] =		"* I'm your huckleberry! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3033,7 +3033,7 @@ LeeroyHillCatsPower_data["huckleberry"] = {
 	["file"] = dir.."huckleberry.mp3",
 };
 
-LeeroyHillCatsPower_data["jahmon"] = {
+KekwSoundBoard_data["jahmon"] = {
 	["text"] =		"* click, click, beep, beep *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3042,7 +3042,7 @@ LeeroyHillCatsPower_data["jahmon"] = {
 	["file"] = dir.."Jahmon.mp3",
 };
 
-LeeroyHillCatsPower_data["jeopardy"] = {
+KekwSoundBoard_data["jeopardy"] = {
 	["text"] =		"* ...and you wagered? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3050,7 +3050,7 @@ LeeroyHillCatsPower_data["jeopardy"] = {
 	["file"] = dir.."jeopardy1.mp3",
 };
 
-LeeroyHillCatsPower_data["jester"] = {
+KekwSoundBoard_data["jester"] = {
 	["text"] =		"* YeeHaw! Jester's Dead! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3059,7 +3059,7 @@ LeeroyHillCatsPower_data["jester"] = {
 	["file"] = dir.."jester.mp3",
 };
 
-LeeroyHillCatsPower_data["koolaid"] = {
+KekwSoundBoard_data["koolaid"] = {
 	["text"] =		"* Get off my Kool-Aid! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3068,7 +3068,7 @@ LeeroyHillCatsPower_data["koolaid"] = {
 	["file"] = dir.."koolaid.mp3",
 };
 
-LeeroyHillCatsPower_data["koolaid2"] = {
+KekwSoundBoard_data["koolaid2"] = {
 	["text"] =		"* It's Koolaid! Oh Yeah! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3077,7 +3077,7 @@ LeeroyHillCatsPower_data["koolaid2"] = {
 	["file"] = dir.."koolaid2.mp3",
 };
 
-LeeroyHillCatsPower_data["livetowin"] = {
+KekwSoundBoard_data["livetowin"] = {
 	["text"] =		"* Live To Win! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3086,7 +3086,7 @@ LeeroyHillCatsPower_data["livetowin"] = {
 	["file"] = dir.."livetowin.mp3",
 };
 
-LeeroyHillCatsPower_data["mailcall"] = {
+KekwSoundBoard_data["mailcall"] = {
 	["text"] =		"* You've got mail! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3095,7 +3095,7 @@ LeeroyHillCatsPower_data["mailcall"] = {
 	["file"] = dir.."mailmotherBLEEPer.mp3",
 };
 
-LeeroyHillCatsPower_data["malemodel"] = {
+KekwSoundBoard_data["malemodel"] = {
 	["text"] =		"* ...even male models can die in a freak gasoline fight accident. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3104,7 +3104,7 @@ LeeroyHillCatsPower_data["malemodel"] = {
 	["file"] = dir.."MaleModels.mp3",
 };
 
-LeeroyHillCatsPower_data["syous"] = {
+KekwSoundBoard_data["syous"] = {
 	["text"] =		"* thanks for noticing me *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3113,7 +3113,7 @@ LeeroyHillCatsPower_data["syous"] = {
 	["file"] = dir.."noticing.mp3",
 };
 
-LeeroyHillCatsPower_data["obey"] = {
+KekwSoundBoard_data["obey"] = {
 	["text"] =		"* Obey My Dog! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3122,7 +3122,7 @@ LeeroyHillCatsPower_data["obey"] = {
 	["file"] = dir.."obeymydog.mp3",
 };
 
-LeeroyHillCatsPower_data["pinky"] = {
+KekwSoundBoard_data["pinky"] = {
 	["text"] =		"* Are you pondering what I'm pondering? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3131,7 +3131,7 @@ LeeroyHillCatsPower_data["pinky"] = {
 	["file"] = dir.."PinkyAndBrain.mp3",
 };
 
-LeeroyHillCatsPower_data["irule"] = {
+KekwSoundBoard_data["irule"] = {
 	["text"] =		"* I'm a firm believer in a ruling class. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3140,7 +3140,7 @@ LeeroyHillCatsPower_data["irule"] = {
 	["file"] = dir.."RulingClass.mp3",
 };
 
-LeeroyHillCatsPower_data["sd1"] = {
+KekwSoundBoard_data["sd1"] = {
 	["text"] =		"* We can Dance! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3149,7 +3149,7 @@ LeeroyHillCatsPower_data["sd1"] = {
 	["file"] = dir.."safetydance1.mp3",
 };
 
-LeeroyHillCatsPower_data["sd2"] = {
+KekwSoundBoard_data["sd2"] = {
 	["text"] =		"* Do the Safety Dance! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3158,7 +3158,7 @@ LeeroyHillCatsPower_data["sd2"] = {
 	["file"] = dir.."safetydance2.mp3",
 };
 
-LeeroyHillCatsPower_data["score"] = {
+KekwSoundBoard_data["score"] = {
 	["text"] =		"* As of now we are keeping score. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3167,7 +3167,7 @@ LeeroyHillCatsPower_data["score"] = {
 	["file"] = dir.."score.mp3",
 };
 
-LeeroyHillCatsPower_data["smell"] = {
+KekwSoundBoard_data["smell"] = {
 	["text"] =		"* Smell that rookie? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3176,7 +3176,7 @@ LeeroyHillCatsPower_data["smell"] = {
 	["file"] = dir.."SmellFear.mp3",
 };
 
-LeeroyHillCatsPower_data["smooth"] = {
+KekwSoundBoard_data["smooth"] = {
 	["text"] =		"* I'm a smooth pimp of love! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3185,7 +3185,7 @@ LeeroyHillCatsPower_data["smooth"] = {
 	["file"] = dir.."smoothpimp.mp3",
 };
 
-LeeroyHillCatsPower_data["snakes"] = {
+KekwSoundBoard_data["snakes"] = {
 	["text"] =		"* Why is it always snakes? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3194,7 +3194,7 @@ LeeroyHillCatsPower_data["snakes"] = {
 	["file"] = dir.."snakes.mp3",
 };
 
-LeeroyHillCatsPower_data["stinghero"] = {
+KekwSoundBoard_data["stinghero"] = {
 	["text"] =		"* Sting is a hero of mine. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3203,7 +3203,7 @@ LeeroyHillCatsPower_data["stinghero"] = {
 	["file"] = dir.."stingisahero.mp3",
 };
 
-LeeroyHillCatsPower_data["stupid"] = {
+KekwSoundBoard_data["stupid"] = {
 	["text"] =		"* Your sons are dead because they were stupid. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3212,7 +3212,7 @@ LeeroyHillCatsPower_data["stupid"] = {
 	["file"] = dir.."stupid.mp3",
 };
 
-LeeroyHillCatsPower_data["loco"] = {
+KekwSoundBoard_data["loco"] = {
 	["text"] =		"* Don't you know I'm loco?! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3221,7 +3221,7 @@ LeeroyHillCatsPower_data["loco"] = {
 	["file"] = dir.."talkinloco.mp3",
 };
 
-LeeroyHillCatsPower_data["wabbit"] = {
+KekwSoundBoard_data["wabbit"] = {
 	["text"] =		"* KILL DA WABBIT!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3230,7 +3230,7 @@ LeeroyHillCatsPower_data["wabbit"] = {
 	["file"] = dir.."KILLDAWABBIT.mp3",
 };
 
-LeeroyHillCatsPower_data["tank"] = {
+KekwSoundBoard_data["tank"] = {
 	["text"] =		"* Aggro is mine! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3239,7 +3239,7 @@ LeeroyHillCatsPower_data["tank"] = {
 	["file"] = dir.."tanksong.mp3",
 };
 
-LeeroyHillCatsPower_data["playoffs"] = {
+KekwSoundBoard_data["playoffs"] = {
 	["text"] =		"* PLAYOFFS!!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3248,7 +3248,7 @@ LeeroyHillCatsPower_data["playoffs"] = {
 	["file"] = dir.."playoffs.mp3",
 };
 
-LeeroyHillCatsPower_data["bears"] = {
+KekwSoundBoard_data["bears"] = {
 	["text"] =		"* THE BEARS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3257,7 +3257,7 @@ LeeroyHillCatsPower_data["bears"] = {
 	["file"] = dir.."thebears.mp3",
 };
 
-LeeroyHillCatsPower_data["forty"] = {
+KekwSoundBoard_data["forty"] = {
 	["text"] =		"* I'm forty. I'm not a kid! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3266,7 +3266,7 @@ LeeroyHillCatsPower_data["forty"] = {
 	["file"] = dir.."forty.mp3",
 };
 
-LeeroyHillCatsPower_data["practice"] = {
+KekwSoundBoard_data["practice"] = {
 	["text"] =		"* It's Practice! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3275,7 +3275,7 @@ LeeroyHillCatsPower_data["practice"] = {
 	["file"] = dir.."practice.mp3",
 };
 
-LeeroyHillCatsPower_data["llama"] = {
+KekwSoundBoard_data["llama"] = {
 	["text"] =		"* Here's a llama! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3284,7 +3284,7 @@ LeeroyHillCatsPower_data["llama"] = {
 	["file"] = dir.."llama.mp3",
 };
 
-LeeroyHillCatsPower_data["whee"] = {
+KekwSoundBoard_data["whee"] = {
 	["text"] =		"* Gonads and strife *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3293,7 +3293,7 @@ LeeroyHillCatsPower_data["whee"] = {
 	["file"] = dir.."whee.mp3",
 };
 
-LeeroyHillCatsPower_data["turno"] = {
+KekwSoundBoard_data["turno"] = {
 	["text"] =		"* NO SERA EN MI TURNO!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3301,7 +3301,7 @@ LeeroyHillCatsPower_data["turno"] = {
 	["file"] = dir.."turno.mp3",
 };
 
-LeeroyHillCatsPower_data["tupadre"] = {
+KekwSoundBoard_data["tupadre"] = {
 	["text"] =		"* TU PADRE!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3310,7 +3310,7 @@ LeeroyHillCatsPower_data["tupadre"] = {
 	["file"] = dir.."tupadre.mp3",
 };
 
-LeeroyHillCatsPower_data["trololodog"] = {
+KekwSoundBoard_data["trololodog"] = {
 	["text"] =		"* TROLOLOLOLOLO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3318,7 +3318,7 @@ LeeroyHillCatsPower_data["trololodog"] = {
 	["file"] = dir.."trololodog.mp3",
 };
 
-LeeroyHillCatsPower_data["muero"] = {
+KekwSoundBoard_data["muero"] = {
 	["text"] =		"* QUE ME MUERO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3327,7 +3327,7 @@ LeeroyHillCatsPower_data["muero"] = {
 	["file"] = dir.."muero.mp3",
 };
 
-LeeroyHillCatsPower_data["mentira"] = {
+KekwSoundBoard_data["mentira"] = {
 	["text"] =		"* ESO ES MENTIRA! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3336,7 +3336,7 @@ LeeroyHillCatsPower_data["mentira"] = {
 	["file"] = dir.."mentira.mp3",
 };
 
-LeeroyHillCatsPower_data["ladecima"] = {
+KekwSoundBoard_data["ladecima"] = {
 	["text"] =		"* LA DECIMA!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3345,7 +3345,7 @@ LeeroyHillCatsPower_data["ladecima"] = {
 	["file"] = dir.."ladecima.mp3",
 };
 
-LeeroyHillCatsPower_data["juvita"] = {
+KekwSoundBoard_data["juvita"] = {
 	["text"] =		"* TOME JUVITA! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3354,7 +3354,7 @@ LeeroyHillCatsPower_data["juvita"] = {
 	["file"] = dir.."juvita.mp3",
 };
 
-LeeroyHillCatsPower_data["huele"] = {
+KekwSoundBoard_data["huele"] = {
 	["text"] =		"* HUELE A POLE! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3363,7 +3363,7 @@ LeeroyHillCatsPower_data["huele"] = {
 	["file"] = dir.."huelepole.mp3",
 };
 
-LeeroyHillCatsPower_data["harder"] = {
+KekwSoundBoard_data["harder"] = {
 	["text"] =		"* WORKING HARDER!. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3372,7 +3372,7 @@ LeeroyHillCatsPower_data["harder"] = {
 	["file"] = dir.."harder.mp3",
 };
 
-LeeroyHillCatsPower_data["fuuuuck2"] = {
+KekwSoundBoard_data["fuuuuck2"] = {
 	["text"] =		"* FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUCK! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3381,7 +3381,7 @@ LeeroyHillCatsPower_data["fuuuuck2"] = {
 	["file"] = dir.."fuuuuck2.mp3",
 };
 
-LeeroyHillCatsPower_data["follon"] = {
+KekwSoundBoard_data["follon"] = {
 	["text"] =		"* Se va abe... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3390,7 +3390,7 @@ LeeroyHillCatsPower_data["follon"] = {
 	["file"] = dir.."follon.mp3",
 };
 
-LeeroyHillCatsPower_data["fuuuuck"] = {
+KekwSoundBoard_data["fuuuuck"] = {
 	["text"] =		"* FUUUUUUUCK! FUUUUUUUUUUUUUUUUCK! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3399,7 +3399,7 @@ LeeroyHillCatsPower_data["fuuuuck"] = {
 	["file"] = dir.."fuuuuck.mp3",
 };
 
-LeeroyHillCatsPower_data["fckblizz"] = {
+KekwSoundBoard_data["fckblizz"] = {
 	["text"] =		"* FUCKING BLIZZARDDDD!. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3408,7 +3408,7 @@ LeeroyHillCatsPower_data["fckblizz"] = {
 	["file"] = dir.."fckblizz.mp3",
 };
 
-LeeroyHillCatsPower_data["faster"] = {
+KekwSoundBoard_data["faster"] = {
 	["text"] =		"* Fernando is faster than you! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3417,7 +3417,7 @@ LeeroyHillCatsPower_data["faster"] = {
 	["file"] = dir.."faster.mp3",
 };
 
-LeeroyHillCatsPower_data["dududu2"] = {
+KekwSoundBoard_data["dududu2"] = {
 	["text"] =		"* DUDUDU! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3426,7 +3426,7 @@ LeeroyHillCatsPower_data["dududu2"] = {
 	["file"] = dir.."dududu2.mp3",
 };
 
-LeeroyHillCatsPower_data["dududu"] = {
+KekwSoundBoard_data["dududu"] = {
 	["text"] =		"* DUDUDU. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3435,7 +3435,7 @@ LeeroyHillCatsPower_data["dududu"] = {
 	["file"] = dir.."dududu.mp3",
 };
 
-LeeroyHillCatsPower_data["10euros"] = {
+KekwSoundBoard_data["10euros"] = {
 	["text"] =		"* Que me des 10 euros! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3444,7 +3444,7 @@ LeeroyHillCatsPower_data["10euros"] = {
 	["file"] = dir.."10euros.mp3",
 };
 
-LeeroyHillCatsPower_data["20flute"] = {
+KekwSoundBoard_data["20flute"] = {
 	["text"] = 		"* 20th Century Fox Theme! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3453,7 +3453,7 @@ LeeroyHillCatsPower_data["20flute"] = {
 	["file"] = dir.."20flute.mp3",
 };
 
-LeeroyHillCatsPower_data["afregar"] = {
+KekwSoundBoard_data["afregar"] = {
 	["text"] = 		"* A fregar! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3462,7 +3462,7 @@ LeeroyHillCatsPower_data["afregar"] = {
 	["file"] = dir.."afregar.mp3",
 };
 
-LeeroyHillCatsPower_data["bailando"] = {
+KekwSoundBoard_data["bailando"] = {
 	["text"] = 		"* Seguimos bailando! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3471,7 +3471,7 @@ LeeroyHillCatsPower_data["bailando"] = {
 	["file"] = dir.."bailando.mp3",
 };
 
-LeeroyHillCatsPower_data["backtraced"] = {
+KekwSoundBoard_data["backtraced"] = {
 	["text"] =		"* Because I backtraced it!. *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3480,7 +3480,7 @@ LeeroyHillCatsPower_data["backtraced"] = {
 	["file"] = dir.."backtraced.mp3",
 };
 
-LeeroyHillCatsPower_data["chicogallina"] = {
+KekwSoundBoard_data["chicogallina"] = {
 	["text"] =		"* Gallina, chico gallina! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3489,7 +3489,7 @@ LeeroyHillCatsPower_data["chicogallina"] = {
 	["file"] = dir.."chicogallina.mp3",
 };
 
-LeeroyHillCatsPower_data["woo"] = {
+KekwSoundBoard_data["woo"] = {
 	["text"] =		"* WOOOOOOOOOOOOOOOOOOO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3498,7 +3498,7 @@ LeeroyHillCatsPower_data["woo"] = {
 	["file"] = dir.."woo.mp3",
 };
 
-LeeroyHillCatsPower_data["wombo"] = {
+KekwSoundBoard_data["wombo"] = {
 	["text"] =		"* WOMBO COMBO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3507,7 +3507,7 @@ LeeroyHillCatsPower_data["wombo"] = {
 	["file"] = dir.."wombo.mp3",
 };
 
-LeeroyHillCatsPower_data["wombo2"] = {
+KekwSoundBoard_data["wombo2"] = {
 	["text"] =		"* WOMBO COMBO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3516,7 +3516,7 @@ LeeroyHillCatsPower_data["wombo2"] = {
 	["file"] = dir.."wombo2.mp3",
 };
 
-LeeroyHillCatsPower_data["wombo3"] = {
+KekwSoundBoard_data["wombo3"] = {
 	["text"] =		"* WOMBO COMBO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3525,7 +3525,7 @@ LeeroyHillCatsPower_data["wombo3"] = {
 	["file"] = dir.."wombo3.mp3",
 };
 
-LeeroyHillCatsPower_data["villarato"] = {
+KekwSoundBoard_data["villarato"] = {
 	["text"] =		"* VILLARATO VILLARATO!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3534,7 +3534,7 @@ LeeroyHillCatsPower_data["villarato"] = {
 	["file"] = dir.."villarato.mp3",
 };
 
-LeeroyHillCatsPower_data["sanganchao"] = {
+KekwSoundBoard_data["sanganchao"] = {
 	["text"] =		"* SAN GANCHAO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3543,7 +3543,7 @@ LeeroyHillCatsPower_data["sanganchao"] = {
 	["file"] = dir.."sanganchao.mp3",
 };
 
-LeeroyHillCatsPower_data["russel"] = {
+KekwSoundBoard_data["russel"] = {
 	["text"] =		"* LET'S DO THE RUSSEL COIGHT! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3552,7 +3552,7 @@ LeeroyHillCatsPower_data["russel"] = {
 	["file"] = dir.."russel.mp3",
 };
 
-LeeroyHillCatsPower_data["repu"] = {
+KekwSoundBoard_data["repu"] = {
 	["text"] =		"* TARARA...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3561,7 +3561,7 @@ LeeroyHillCatsPower_data["repu"] = {
 	["file"] = dir.."republicans.mp3",
 };
 
-LeeroyHillCatsPower_data["repu2"] = {
+KekwSoundBoard_data["repu2"] = {
 	["text"] =		"* TARARARA...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3570,7 +3570,7 @@ LeeroyHillCatsPower_data["repu2"] = {
 	["file"] = dir.."republicans2.mp3",
 };
 
-LeeroyHillCatsPower_data["platano"] = {
+KekwSoundBoard_data["platano"] = {
 	["text"] =		"* CORRE PLATANO!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3579,7 +3579,7 @@ LeeroyHillCatsPower_data["platano"] = {
 	["file"] = dir.."platano.mp3",
 };
 
-LeeroyHillCatsPower_data["pero"] = {
+KekwSoundBoard_data["pero"] = {
 	["text"] =		"* PERO QUE ****! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3588,7 +3588,7 @@ LeeroyHillCatsPower_data["pero"] = {
 	["file"] = dir.."pero.mp3",
 };
 
-LeeroyHillCatsPower_data["misojos"] = {
+KekwSoundBoard_data["misojos"] = {
 	["text"] =		"* MIS OJOS! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3597,7 +3597,7 @@ LeeroyHillCatsPower_data["misojos"] = {
 	["file"] = dir.."misojos.mp3",
 };
 
-LeeroyHillCatsPower_data["mago"] = {
+KekwSoundBoard_data["mago"] = {
 	["text"] =		"* LO HIZO UN MAGO *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3606,7 +3606,7 @@ LeeroyHillCatsPower_data["mago"] = {
 	["file"] = dir.."mago.mp3",
 };
 
-LeeroyHillCatsPower_data["loki"] = {
+KekwSoundBoard_data["loki"] = {
 	["text"] =		"* WIS...YOSTIFAAAI...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3615,7 +3615,7 @@ LeeroyHillCatsPower_data["loki"] = {
 	["file"] = dir.."loki.mp3",
 };
 
-LeeroyHillCatsPower_data["loki2"] = {
+KekwSoundBoard_data["loki2"] = {
 	["text"] =		"* URAPAN MEXICAN SON...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3624,7 +3624,7 @@ LeeroyHillCatsPower_data["loki2"] = {
 	["file"] = dir.."loki2.mp3",
 };
 
-LeeroyHillCatsPower_data["loki3"] = {
+KekwSoundBoard_data["loki3"] = {
 	["text"] =		"* URAPAN MEXICAN LOKI! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3633,7 +3633,7 @@ LeeroyHillCatsPower_data["loki3"] = {
 	["file"] = dir.."loki3.mp3",
 };
 
-LeeroyHillCatsPower_data["eso"] = {
+KekwSoundBoard_data["eso"] = {
 	["text"] =		"* PERO COMO PUEDES DECIR ESO! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3642,7 +3642,7 @@ LeeroyHillCatsPower_data["eso"] = {
 	["file"] = dir.."eso.mp3",
 };
 
-LeeroyHillCatsPower_data["efectivamente"] = {
+KekwSoundBoard_data["efectivamente"] = {
 	["text"] =		"* EFECTIVAMENTE...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3651,7 +3651,7 @@ LeeroyHillCatsPower_data["efectivamente"] = {
 	["file"] = dir.."efectivamante.mp3",
 };
 
-LeeroyHillCatsPower_data["devolver"] = {
+KekwSoundBoard_data["devolver"] = {
 	["text"] =		"* DEVOLVERLE QUE? *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3660,7 +3660,7 @@ LeeroyHillCatsPower_data["devolver"] = {
 	["file"] = dir.."devolver.mp3",
 };
 
-LeeroyHillCatsPower_data["compa"] = {
+KekwSoundBoard_data["compa"] = {
 	["text"] =		"* ANDA CALIENTE EL CARTEL...! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3669,7 +3669,7 @@ LeeroyHillCatsPower_data["compa"] = {
 	["file"] = dir.."compa.mp3",
 };
 
-LeeroyHillCatsPower_data["barquito"] = {
+KekwSoundBoard_data["barquito"] = {
 	["text"] =		"* UN BAAARQUITO.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3677,7 +3677,7 @@ LeeroyHillCatsPower_data["barquito"] = {
 	["emote"] = "dance",
 	["file"] = dir.."barquito.mp3",
 };
-LeeroyHillCatsPower_data["aprenguin"] = {
+KekwSoundBoard_data["aprenguin"] = {
 	["text"] =		"* QUE N'APRENGUIN!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3685,7 +3685,7 @@ LeeroyHillCatsPower_data["aprenguin"] = {
 	["emote"] = "point",
 	["file"] = dir.."aprenguin.mp3",
 };
-LeeroyHillCatsPower_data["desmientemelo"] = {
+KekwSoundBoard_data["desmientemelo"] = {
 	["text"] =		"* SINO, DESMIENTEMELO!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3693,7 +3693,7 @@ LeeroyHillCatsPower_data["desmientemelo"] = {
 	["emote"] = "point",
 	["file"] = dir.."desmientemelo.mp3",
 };
-LeeroyHillCatsPower_data["batman"] = {
+KekwSoundBoard_data["batman"] = {
 	["text"] =		"* NANANANANANANA!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3701,7 +3701,7 @@ LeeroyHillCatsPower_data["batman"] = {
 	["emote"] = "dance",
 	["file"] = dir.."batman.mp3",
 };
-LeeroyHillCatsPower_data["batman2"] = {
+KekwSoundBoard_data["batman2"] = {
 	["text"] =		"* NARANANARANA NA!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3709,7 +3709,7 @@ LeeroyHillCatsPower_data["batman2"] = {
 	["emote"] = "bye",
 	["file"] = dir.."batman2.mp3",
 };
-LeeroyHillCatsPower_data["allahu"] = {
+KekwSoundBoard_data["allahu"] = {
 	["text"] =		"* ALLAHU AKBAAAAAAAR!!!!!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3717,7 +3717,7 @@ LeeroyHillCatsPower_data["allahu"] = {
 	["emote"] = "roar",
 	["file"] = dir.."allahu.mp3",
 };
-LeeroyHillCatsPower_data["decima2"] = {
+KekwSoundBoard_data["decima2"] = {
 	["text"] =		"* YA ESTA AQUI!!!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3725,7 +3725,7 @@ LeeroyHillCatsPower_data["decima2"] = {
 	["emote"] = "cheer",
 	["file"] = dir.."decima2.mp3",
 };
-LeeroyHillCatsPower_data["halamadrid"] = {
+KekwSoundBoard_data["halamadrid"] = {
 	["text"] =		"* HALA MADRID!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3733,7 +3733,7 @@ LeeroyHillCatsPower_data["halamadrid"] = {
 	["emote"] = "dance",
 	["file"] = dir.."halamadrid.mp3",
 };
-LeeroyHillCatsPower_data["tsu"] = {
+KekwSoundBoard_data["tsu"] = {
 	["text"] =		"* TSUUUUUUUUUUUUUUUU!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3741,7 +3741,7 @@ LeeroyHillCatsPower_data["tsu"] = {
 	["emote"] = "roar",
 	["file"] = dir.."uuh.mp3",
 };
-LeeroyHillCatsPower_data["violador"] = {
+KekwSoundBoard_data["violador"] = {
 	["text"] =		"* TEMASOOO!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3749,7 +3749,7 @@ LeeroyHillCatsPower_data["violador"] = {
 	["emote"] = "dance",
 	["file"] = dir.."elvioladorerestufull.mp3",
 };
-LeeroyHillCatsPower_data["erestu"] = {
+KekwSoundBoard_data["erestu"] = {
 	["text"] =		"* Eres tuu!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3757,7 +3757,7 @@ LeeroyHillCatsPower_data["erestu"] = {
 	["emote"] = "roar",
 	["file"] = dir.."erestu.mp3",
 };
-LeeroyHillCatsPower_data["siuuu"] = {
+KekwSoundBoard_data["siuuu"] = {
 	["text"] =		"* Muchas grasias afision... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3765,7 +3765,7 @@ LeeroyHillCatsPower_data["siuuu"] = {
 	["emote"] = "cheer",
 	["file"] = dir.."siuuu.mp3",
 };
-LeeroyHillCatsPower_data["minegro"] = {
+KekwSoundBoard_data["minegro"] = {
 	["text"] =		"* De quien fue la culpa?... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3773,7 +3773,7 @@ LeeroyHillCatsPower_data["minegro"] = {
 	["emote"] = "dance",
 	["file"] = dir.."minegro.mp3",
 };
-LeeroyHillCatsPower_data["lostios"] = {
+KekwSoundBoard_data["lostios"] = {
 	["text"] =		"* DONDE ESTAN LOS TIOH... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3781,7 +3781,7 @@ LeeroyHillCatsPower_data["lostios"] = {
 	["emote"] = "roar",
 	["file"] = dir.."lostioh.mp3",
 };
-LeeroyHillCatsPower_data["wohoo"] = {
+KekwSoundBoard_data["wohoo"] = {
 	["text"] =		"* WOHOOOOO *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3789,7 +3789,7 @@ LeeroyHillCatsPower_data["wohoo"] = {
 	["emote"] = "roar",
 	["file"] = dir.."wohoo.mp3",
 };
-LeeroyHillCatsPower_data["hehey"] = {
+KekwSoundBoard_data["hehey"] = {
 	["text"] =		"* HE HEEEEEEY *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3797,7 +3797,7 @@ LeeroyHillCatsPower_data["hehey"] = {
 	["emote"] = "cheer",
 	["file"] = dir.."hehey.wav",
 };
-LeeroyHillCatsPower_data["estefania1"] = {
+KekwSoundBoard_data["estefania1"] = {
 	["text"] =		"* ESTEFANIAAAAAAAAAA *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3805,7 +3805,7 @@ LeeroyHillCatsPower_data["estefania1"] = {
 	["emote"] = "roar",
 	["file"] = dir.."estefania1.wav",
 };
-LeeroyHillCatsPower_data["estefania2"] = {
+KekwSoundBoard_data["estefania2"] = {
 	["text"] =		"* ESTEFANIAAAAAAAAAA!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3813,7 +3813,7 @@ LeeroyHillCatsPower_data["estefania2"] = {
 	["emote"] = "roar",
 	["file"] = dir.."estefania2.wav",
 };
-LeeroyHillCatsPower_data["ss3"] = {
+KekwSoundBoard_data["ss3"] = {
 	["text"] =		"* You're gonna love this... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3821,7 +3821,7 @@ LeeroyHillCatsPower_data["ss3"] = {
 	["emote"] = "roar",
 	["file"] = dir.."ss3.mp3",
 };
-LeeroyHillCatsPower_data["lowrider"] = {
+KekwSoundBoard_data["lowrider"] = {
 	["text"] =		"* ... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3829,7 +3829,7 @@ LeeroyHillCatsPower_data["lowrider"] = {
 	["emote"] = "shrug",
 	["file"] = dir.."lowrider.mp3",
 };
-LeeroyHillCatsPower_data["itsfriday"] = {
+KekwSoundBoard_data["itsfriday"] = {
 	["text"] =		"* ITS FRIDAY THEN, ITS SATURDAY, SUNDAY! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3837,7 +3837,7 @@ LeeroyHillCatsPower_data["itsfriday"] = {
 	["emote"] = "dance",
 	["file"] = dir.."itsfriday.mp3",
 };
-LeeroyHillCatsPower_data["monica"] = {
+KekwSoundBoard_data["monica"] = {
 	["text"] =		"* Noooo Monicaaaa!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3845,7 +3845,7 @@ LeeroyHillCatsPower_data["monica"] = {
 	["emote"] = "roar",
 	["file"] = dir.."nooomonica.mp3",
 };
-LeeroyHillCatsPower_data["fase1"] = {
+KekwSoundBoard_data["fase1"] = {
 	["text"] =		"* Fase 1 Completada!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3853,7 +3853,7 @@ LeeroyHillCatsPower_data["fase1"] = {
 	["emote"] = "roar",
 	["file"] = dir.."fase1.mp3",
 };
-LeeroyHillCatsPower_data["domingueros"] = {
+KekwSoundBoard_data["domingueros"] = {
 	["text"] =		"* Parecemos domingueros *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3861,7 +3861,7 @@ LeeroyHillCatsPower_data["domingueros"] = {
 	["emote"] = "roar",
 	["file"] = dir.."domingueros.mp3",
 };
-LeeroyHillCatsPower_data["coffindance"] = {
+KekwSoundBoard_data["coffindance"] = {
 	["text"] =		"* F *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3869,7 +3869,7 @@ LeeroyHillCatsPower_data["coffindance"] = {
 	["emote"] = "dance",
 	["file"] = dir.."coffindance.wav",
 };
-LeeroyHillCatsPower_data["warrior"] = {
+KekwSoundBoard_data["warrior"] = {
 	["text"] =		"* Fight like a WARRIOR *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3877,7 +3877,7 @@ LeeroyHillCatsPower_data["warrior"] = {
 	["emote"] = "roar",
 	["file"] = dir.."warrior.mp3",
 };
-LeeroyHillCatsPower_data["tururu"] = {
+KekwSoundBoard_data["tururu"] = {
 	["text"] =		"* Turu ru tu tu *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3885,7 +3885,7 @@ LeeroyHillCatsPower_data["tururu"] = {
 	["emote"] = "dance",
 	["file"] = dir.."tururu.wav",
 };
-LeeroyHillCatsPower_data["pegao"] = {
+KekwSoundBoard_data["pegao"] = {
 	["text"] =		"* ...Y yo la invite a bailar  *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3893,7 +3893,7 @@ LeeroyHillCatsPower_data["pegao"] = {
 	["emote"] = "dance",
 	["file"] = dir.."pegao.wav",
 };
-LeeroyHillCatsPower_data["involucrao"] = {
+KekwSoundBoard_data["involucrao"] = {
 	["text"] =		"* ...involucrao contigo hasta el fin  *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
@@ -3901,7 +3901,7 @@ LeeroyHillCatsPower_data["involucrao"] = {
 	["emote"] = "dance",
 	["file"] = dir.."involucrao.wav",
 };
-LeeroyHillCatsPower_data["memiro"] = {
+KekwSoundBoard_data["memiro"] = {
 	["text"] =		"* Me miro y la mire  *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",

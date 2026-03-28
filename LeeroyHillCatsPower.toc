@@ -1,8 +1,0 @@
-## Interface: 120001
-## Title: LHCP Team CowBell Edition
-## Notes: /lhcp list
-## OptionalDeps:
-## Dependencies:
-## SavedVariablesPerCharacter: LHCP_ignoreMode
-## SavedVariables: LHCP_globalIgnoreMode
-LeeroyHillCatsPower.xml
