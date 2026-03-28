@@ -15,11 +15,35 @@ jobs:
 
       - name: Package addon
         run: |
+          VERSION=${GITHUB_REF_NAME#v}
+          ZIPNAME="KekwSoundBoard-${GITHUB_REF_NAME}.zip"
+
           mkdir -p out/KekwSoundBoard
           cp KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard.xml KekwSoundBoardData.lua out/KekwSoundBoard/
-          cd out && zip -r ../KekwSoundBoard-${{ github.ref_name }}.zip KekwSoundBoard/
+          cp -r KekwSoundBoard_Classic out/KekwSoundBoard_Classic
+
+          cd out && zip -r ../$ZIPNAME KekwSoundBoard/ KekwSoundBoard_Classic/
+          cd ..
+
+          cat > release.json << EOF
+          {
+            "releases": [
+              {
+                "name": "KekwSoundBoard",
+                "version": "$VERSION",
+                "filename": "$ZIPNAME",
+                "nolib": false,
+                "metadata": [
+                  {"flavor": "mainline", "interface": 120001}
+                ]
+              }
+            ]
+          }
+          EOF
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          files: KekwSoundBoard-*.zip
+          files: |
+            KekwSoundBoard-*.zip
+            release.json
