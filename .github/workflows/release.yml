@@ -18,7 +18,7 @@ jobs:
           VERSION=${GITHUB_REF_NAME#v}
 
           mkdir -p out/KekwSoundBoard
-          cp KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard.xml KekwSoundBoardData.lua out/KekwSoundBoard/
+          cp KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard_Mainline.toc KekwSoundBoard.xml KekwSoundBoardData.lua out/KekwSoundBoard/
 
           cd out && zip -r ../KekwSoundBoard.zip KekwSoundBoard/
           cd ..
