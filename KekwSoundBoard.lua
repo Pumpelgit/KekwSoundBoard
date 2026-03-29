@@ -133,9 +133,7 @@ function Kekw_LoadDataCmd(key,value,abortTime)
 	if time() > abortTime then error("Kekw load stalled on cmd "..key); end
 	
 	local name = "KEKW"..key;
-	-- need to use a dynamic script here to avoid variable scoping
-	-- how do you pre-evaluate "key" ???
-	_G.SlashCmdList[name] = loadstring("Kekw_SayOutgoingEmote(\""..key.."\");");
+	_G.SlashCmdList[name] = function() Kekw_SayOutgoingEmote(key) end;
 	
 	local i = 1;
 	_= Kekw_MakeSlashCmd(name,key,i,slashList)
