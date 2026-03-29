@@ -22,8 +22,10 @@ jobs:
       - uses: BigWigsMods/packager@v2
 
       - name: Add stable download ZIP
-        run: cp .release/KekwSoundBoard-*.zip .release/KekwSoundBoard.zip
+        run: |
+          find . -name "KekwSoundBoard-*.zip" -exec cp {} KekwSoundBoard.zip \;
+          ls -la KekwSoundBoard.zip
 
       - uses: softprops/action-gh-release@v2
         with:
-          files: .release/KekwSoundBoard.zip
+          files: KekwSoundBoard.zip
