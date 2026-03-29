@@ -21,6 +21,10 @@ jobs:
           cp KekwSoundBoard.lua KekwSoundBoard.toc KekwSoundBoard_Mainline.toc KekwSoundBoard.xml KekwSoundBoardData.lua out/KekwSoundBoard/
           cp -r KekwSoundBoard_Classic out/KekwSoundBoard_Classic
 
+          sed -i "s/@project-version@/$VERSION/g" out/KekwSoundBoard/KekwSoundBoard.toc
+          sed -i "s/@project-version@/$VERSION/g" out/KekwSoundBoard/KekwSoundBoard_Mainline.toc
+          sed -i "s/@project-version@/$VERSION/g" out/KekwSoundBoard_Classic/KekwSoundBoard_Classic.toc
+
           cd out && zip -r ../KekwSoundBoard.zip KekwSoundBoard/ KekwSoundBoard_Classic/
           cd ..
 
