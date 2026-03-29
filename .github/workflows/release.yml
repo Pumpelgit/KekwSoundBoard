@@ -25,7 +25,7 @@ jobs:
           sed -i "s/@project-version@/$VERSION/g" out/KekwSoundBoard/KekwSoundBoard_Mainline.toc
           sed -i "s/@project-version@/$VERSION/g" out/KekwSoundBoard_Classic/KekwSoundBoard_Classic.toc
 
-          cd out && zip -r ../KekwSoundBoard.zip KekwSoundBoard/ KekwSoundBoard_Classic/
+          cd out && zip -r ../KekwSoundBoard-${VERSION}.zip KekwSoundBoard/ KekwSoundBoard_Classic/
           cd ..
 
           cat > release.json << EOF
@@ -34,7 +34,7 @@ jobs:
               {
                 "name": "KekwSoundBoard",
                 "version": "$VERSION",
-                "filename": "KekwSoundBoard.zip",
+                "filename": "KekwSoundBoard-${VERSION}.zip",
                 "nolib": false,
                 "metadata": [
                   {"flavor": "mainline", "interface": 120001}
@@ -48,5 +48,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            KekwSoundBoard.zip
+            KekwSoundBoard-*.zip
             release.json
