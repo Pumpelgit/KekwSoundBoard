@@ -1,4 +1,4 @@
-local dir = "Interface\\AddOns\\KekwSoundBoard_Classic\\";
+local dir = "Interface\\AddOns\\KekwSoundBoard\\Sounds\\";
 
 if not KekwSoundBoard_eastereggs
   or type(KekwSoundBoard_eastereggs) ~= "table" then
@@ -3340,7 +3340,7 @@ KekwSoundBoard_data["ladecima"] = {
 	["text"] =		"* LA DECIMA!!! *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
-	["msg"] = " levanta la décima!",
+	["msg"] = " levanta la dï¿½cima!",
 	["emote"] = "roar",
 	["file"] = dir.."ladecima.mp3",
 };
@@ -3681,7 +3681,7 @@ KekwSoundBoard_data["aprenguin"] = {
 	["text"] =		"* QUE N'APRENGUIN!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
-	["msg"] = " enseña como se ficha.",
+	["msg"] = " enseï¿½a como se ficha.",
 	["emote"] = "point",
 	["file"] = dir.."aprenguin.mp3",
 };
@@ -3697,7 +3697,7 @@ KekwSoundBoard_data["batman"] = {
 	["text"] =		"* NANANANANANANA!.... *",
 	["AllianceEnemyText"] = 	"",
 	["HordeEnemyText"] = 		"",
-	["msg"] = " invoca a ßátman.",
+	["msg"] = " invoca a ï¿½ï¿½tman.",
 	["emote"] = "dance",
 	["file"] = dir.."batman.mp3",
 };

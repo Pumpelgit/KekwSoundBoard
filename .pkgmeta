@@ -1,8 +1,5 @@
 package-as: KekwSoundBoard
 
-move-folders:
-  KekwSoundBoard/KekwSoundBoard_Classic: KekwSoundBoard_Classic
-
 ignore:
   - nopatch
   - README.md
