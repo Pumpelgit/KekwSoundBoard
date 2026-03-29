@@ -20,3 +20,10 @@ jobs:
           fetch-depth: 0
 
       - uses: BigWigsMods/packager@v2
+
+      - name: Add stable download ZIP
+        run: cp .release/KekwSoundBoard-*.zip .release/KekwSoundBoard.zip
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: .release/KekwSoundBoard.zip
