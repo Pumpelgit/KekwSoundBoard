@@ -1,9 +1,9 @@
 ## Interface: 120001
 ## Title: KekwSoundBoard
-## Version: @project-version@
+## Version: v1.1.1
 ## Notes: /kekw list
 ## OptionalDeps:
 ## Dependencies:
-## SavedVariablesPerCharacter: Kekw_ignoreMode
-## SavedVariables: Kekw_globalIgnoreMode
+## SavedVariablesPerCharacter: Kekw_ignoreMode, Kekw_favorites
+## SavedVariables: Kekw_globalIgnoreMode, Kekw_minimapAngle
 KekwSoundBoard.xml

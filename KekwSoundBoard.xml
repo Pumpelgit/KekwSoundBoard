@@ -2,6 +2,7 @@
 	<Script file="KekwSoundBoardPkg.lua"/>
 	<Script file="KekwSoundBoard.lua"/>
 	<Script file="KekwSoundBoardData.lua"/>
+	<Script file="KekwSoundBoardUI.lua"/>
 	
 	<!-- Frame to handle all core events -->
 	<Frame name="BH_core">

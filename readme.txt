@@ -54,6 +54,8 @@ Special thanks to AnduinLothar (KarlKFI)
 
 Commands:
 /kekw list - list all sound emotes
+/kekw ui - open the searchable sound browser; click an entry to play it
+Click the star beside a sound to save it as a favorite; use the Favorites filter to show saved sounds
 /kekw quiet - do not play sounds
 /kekw raidignore - suppress all text, emotes, and sounds when you are in a raid instance
 /kekw ignore - suppress all text, emotes, and sounds
