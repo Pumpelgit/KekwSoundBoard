@@ -18,5 +18,7 @@ https://github.com/Pumpelgit/KekwSoundBoard/releases/latest/download/KekwSoundBo
 
 ## 3. How to use
 - Type `/kekw list` in WoW chat to see all available sound emotes
+- Type `/kekw ui` to open the searchable sound browser, or click its minimap button
+- Click the star beside any sound to favorite it; use the filter to show favorites only
 - Type `/kekw play leeroy` to play a sound privately
 - Type `/kekw help` for all commands

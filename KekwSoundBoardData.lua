@@ -48,6 +48,7 @@ KekwSoundBoard_about = {
 }
 
 KekwSoundBoard_help = {
+	"/kekw ui - open the sound browser",
 	"/kekw toggle - toggle ignore mode",
 	"/kekw quiet - do not play sounds",
 	"/kekw unignore - play sounds and show emotes",

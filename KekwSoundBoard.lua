@@ -686,6 +686,7 @@ Kekw_cmds = {
 	["global"] = Kekw_ToggleGlobalPrefs,
 	["raidignore"] = Kekw_ToggleRaidIgnore,
 	["debug"] = Kekw_EnableDebug,
+	["ui"] = Kekw_ToggleSoundBrowser,
 }
 
 Kekw_lastToggle = nil;
